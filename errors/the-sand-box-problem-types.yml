@@ -1,0 +1,67 @@
+generated: '2026-08-30'
+method: searched
+source: https://developers.sandbox.game/api/
+summary: >-
+  The Sandbox publishes a small, flat error registry in the API Reference: a status/code/message
+  table covering 400, 401 and 403, plus a separately documented 429 `rate_limited`. It is a
+  code-and-message envelope, not RFC 9457 problem+json, and no 404/5xx behaviour is documented.
+format: code-message
+rfc9457: false
+media_type: application/json
+envelope:
+  code_field_label: Code
+  message_field_label: Message
+  note: >-
+    The reference publishes the code/message pairs in a table but never shows a rendered error body,
+    so the JSON key names are not published. The labels above are the table's own column headings.
+error_count: 6
+errors:
+- code: invalid_json
+  status: 400
+  title: Invalid JSON
+  message: The request body could not be decoded
+  remediation: Send a well-formed JSON request body with Content-Type application/json.
+- code: invalid_request_url
+  status: 400
+  title: Invalid request URL
+  message: The request URL is invalid
+  remediation: Check the path against the API reference and the documented base URL https://developers.sandbox.game/api/.
+- code: invalid_request
+  status: 400
+  title: Invalid request
+  message: This request is not supported
+  remediation: The method/route combination is not supported. Verify the operation exists and the HTTP method is one of GET, POST, PATCH, DELETE.
+- code: unauthenticated
+  status: 401
+  title: Unauthenticated
+  message: Invalid or missing bearer token
+  remediation: Complete the OAuth flow and send a valid, unexpired bearer token; refresh the token if it has expired.
+  see: authentication/the-sand-box-authentication.yml
+- code: unauthorized
+  status: 403
+  title: Unauthorized
+  message: Insufficient permissions
+  remediation: The token is valid but lacks the permission for this resource. Request a token scoped for it.
+  see: authentication/the-sand-box-authentication.yml
+- code: rate_limited
+  status: 429
+  title: Rate limited
+  message: Rate-limited requests return a rate_limited error with HTTP status 429.
+  remediation: >-
+    Back off and retry. The documented ceiling is an average of 3 requests/second per integration
+    with short bursts allowed; no Retry-After or RateLimit-* header is documented, so the client
+    must implement its own backoff.
+  see: rate-limits/the-sand-box-rate-limits.yml
+success_codes:
+- status: 200
+  description: Successfully processed request
+gaps:
+- >-
+  No 404 semantics are documented, even though the API is resource-oriented with UUIDv4 ids.
+- >-
+  No 5xx behaviour is documented. This matters more than usual here: the provider's own
+  /api/* backend was returning nginx HTML 503 pages (not JSON errors) throughout the 2026-08-30
+  probe, so a client that assumes a JSON envelope on every non-2xx will fail to parse the outage
+  response.
+- >-
+  No error catalogue exists for the write surface (POST/PATCH/DELETE) beyond the three generic 400s.

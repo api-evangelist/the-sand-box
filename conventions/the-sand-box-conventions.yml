@@ -1,0 +1,143 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  https://developers.sandbox.game/api/ (Conventions, JSON Conventions, Request Limits, Status Codes)
+  + https://developers.sandbox.game/unity/reference/ + https://developers.sandbox.game/unity/examples/
+summary: >-
+  Cross-cutting request/response semantics for The Sandbox Developers API, captured from the pages of
+  the Developers HUB that are reachable. The provider publishes an unusually crisp JSON-convention
+  statement (UUIDv4 ids, snake_case, ISO 8601) and a plain rate-limit number, but publishes no
+  idempotency mechanism, no versioning policy, and no rate-limit response headers.
+base_url: https://developers.sandbox.game/api/
+transport:
+  protocol: https
+  required: true
+  methods: [GET, POST, PATCH, DELETE]
+  media_type: application/json
+  style: REST
+authentication:
+  styles: [oauth2_authorization_code, http_bearer]
+  see: authentication/the-sand-box-authentication.yml
+json_conventions:
+  identifier:
+    style: uuid
+    version: 4
+    field: id
+    scope: top-level resources
+  property_naming: snake_case
+  datetime_format: ISO 8601
+  datetime_example: '2020-08-12T02:12:33.231Z'
+  date_example: '2020-08-12'
+  source: https://developers.sandbox.game/api/
+pagination:
+  style: cursor
+  documented: partial
+  parameters:
+  - name: limit
+    note: Page size.
+  - name: searchAfter
+    note: >-
+      Opaque cursor for the next page; an Elasticsearch-style search_after cursor rather than an
+      offset. Surfaced by the Unity SDK reference, which exposes `limit` and `searchAfter` on every
+      asset-listing call (GetPublicAssets, GetCollectionAssets, GetLibraryAssets, GetInventoryAssets).
+  response_fields:
+  - items
+  response_field_note: >-
+    The published SDK example iterates `assets.items`, so the collection envelope carries an `items`
+    array. The cursor/total fields of that envelope are not published.
+  caveat: >-
+    These parameter names come from the C# SDK reference, which uses camelCase for method arguments,
+    while the API itself declares snake_case property naming. The wire form is most likely
+    `search_after`. The page that would settle it (/api/authentication.html and the Swagger
+    playground) is 503. Treat the wire spelling as unconfirmed.
+filtering_and_search:
+  documented: partial
+  parameters: [search, query]
+  note: Free-text `search` and a structured `query` argument appear on the SDK listing calls.
+idempotency:
+  documented: false
+  header: null
+  notes: >-
+    No idempotency-key mechanism appears anywhere in the reachable documentation. The API Reference
+    conventions section covers HTTPS, JSON, ids, naming and dates and says nothing about safe replay,
+    and no request header of any kind is documented. NO `Idempotency` pointer is emitted for this
+    provider - the agent-readiness idempotency dimension is a genuine zero here, not a missing
+    pointer.
+  agent_risk: >-
+    The documented method set includes POST, PATCH and DELETE, so a write surface exists, but the
+    documented success table has exactly one row (200) and there is no replay primitive. An agent
+    that retries a timed-out POST has no way to avoid duplicating it.
+reversibility:
+  grade: unknown
+  status: undocumented
+  write_surface: present
+  write_surface_evidence: >-
+    https://developers.sandbox.game/api/ - "This API follows RESTful conventions using GET, POST,
+    PATCH, and DELETE."
+  reversal_operations: []
+  windows: []
+  notes: >-
+    NOT `na`. The API is not read-only - the provider explicitly documents POST, PATCH and DELETE -
+    so reversibility is in scope, but no cancel/refund/void/undo/restore operation and no reversal
+    window is documented anywhere reachable. The only operations named publicly are the read calls
+    exposed through the Unity SDK (users, avatars, assets, collections, libraries, inventory, LAND,
+    SAND balance, followers/follows); the write endpoints behind PATCH/DELETE are described nowhere.
+    The Integration Examples page (/api/examples.html) and the Swagger playground (/api/docs/), which
+    are where a reversal operation would be visible, both returned HTTP 503 on 2026-08-30. No window
+    is asserted here, because inventing one is the single error in this pipeline that could cost a
+    user real money.
+  what_would_close_it: >-
+    Restore the Swagger playground (or publish the OpenAPI at a static URL) so the write operations
+    and their inverses can be read, and state a deletion/restore window for user-generated resources.
+dry_run_mode:
+  documented: false
+  note: No sandbox, test mode, test credentials or simulation surface is published. See lifecycle/.
+versioning:
+  scheme: unversioned-path
+  evidence: >-
+    The documented base URL is https://developers.sandbox.game/api/ with no version segment, and no
+    version header is documented.
+  policy_documented: false
+error_envelope:
+  style: code-and-message
+  format: json
+  rfc9457: false
+  fields:
+  - name: message
+    note: Human-readable text, per the API Reference "Message" column.
+  - name: code
+    note: >-
+      Machine-readable string such as invalid_json, invalid_request_url, invalid_request,
+      unauthenticated, unauthorized, rate_limited. The API Reference labels this column "Code".
+  see: errors/the-sand-box-problem-types.yml
+  caveat: >-
+    The provider publishes the code/message PAIRS but never shows a rendered error body, so the exact
+    JSON envelope key names are not published. Recorded as observed columns, not as a schema.
+rate_limiting:
+  documented: true
+  limit: 3 requests/second (average) per integration
+  burst: short bursts allowed
+  status_code: 429
+  error_code: rate_limited
+  response_headers:
+    documented: false
+    note: >-
+      No X-RateLimit-*, RateLimit-* or Retry-After header is documented. An agent gets a number in
+      prose and no runtime signal.
+  see: rate-limits/the-sand-box-rate-limits.yml
+  provider_caveat: >-
+    "Rate limits may change in the future. Special rate limits may be introduced for select partners."
+request_tracing:
+  documented: false
+  note: No request-id or correlation header is documented.
+metadata_and_expansion:
+  documented: false
+webhooks:
+  documented: false
+  note: No webhook, event or streaming surface is published. No AsyncAPI or Webhooks pointer emitted.
+cross_links:
+  errors: errors/the-sand-box-problem-types.yml
+  lifecycle: lifecycle/the-sand-box-lifecycle.yml
+  authentication: authentication/the-sand-box-authentication.yml
+  rate_limits: rate-limits/the-sand-box-rate-limits.yml
+  data_model: data-model/the-sand-box-data-model.yml

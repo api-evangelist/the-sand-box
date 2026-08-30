@@ -1,0 +1,406 @@
+# English Documentation
+
+## The Sandbox Documentation
+
+- [Welcome to The Sandbox](https://docs.sandbox.game/en/welcome-to-the-sandbox.md): Welcome to The Sandbox Game's official documentation and help resource.
+- [What is The Sandbox?](https://docs.sandbox.game/en/what-is-tsb.md): Get to know The Sandbox with examples of content already announced or launched in the metaverse and learn the basics of our ecosystem.
+- [Earning SAND & NFTs](https://docs.sandbox.game/en/what-is-tsb/earn-sand-and-nfts.md): Find out how you can earn SAND and NFTs in The Sandbox.
+- [An Expression of Culture](https://docs.sandbox.game/en/what-is-tsb/express-culture.md): See these examples of content and projects in The Sandbox metaverse.
+- [An Extension of the Real World](https://docs.sandbox.game/en/what-is-tsb/extend-real-world.md): See these examples of content and projects in The Sandbox metaverse.
+- [An Impetus for Metaverse Jobs](https://docs.sandbox.game/en/what-is-tsb/metaverse-jobs.md): Learn about jobs developing in The Sandbox metaverse.
+- [FAQs: The Sandbox](https://docs.sandbox.game/en/what-is-tsb/faqs-the-sandbox.md): Find answers to common basic questions about The Sandbox here.
+- [Play, Create & Earn](https://docs.sandbox.game/en/general/play-create-and-earn.md): Learn how you can Play, Create, & Earn in The Sandbox and participate in our circular economy.
+- [Map](https://docs.sandbox.game/en/general/map.md): Learn about The Sandbox metaverse Map and features.
+- [Marketplace](https://docs.sandbox.game/en/general/marketplace.md): Discover digital property on The Marketplace to enhance your user experience as you play, create, and earn in The Sandbox ecosystem.
+- [FAQs: Marketplace](https://docs.sandbox.game/en/general/marketplace/faqs-marketplace.md): Find answers to common questions about The Sandbox Marketplace here.
+- [About The Sandbox Marketplace Beta](https://docs.sandbox.game/en/general/marketplace/faqs-marketplace/about-the-sandbox-marketplace-beta.md)
+- [The Sandbox MoonCats NFT Recall](https://docs.sandbox.game/en/general/marketplace/faqs-marketplace/the-sandbox-mooncats-nft-recall.md): Important information for The Sandbox members who hold The Sandbox MoonCat NFTs.
+- [Discord Community](https://docs.sandbox.game/en/general/discord-community.md): About The Sandbox's Discord community
+- [Join Discord & Claim Roles](https://docs.sandbox.game/en/general/discord-community/join-claim-roles.md): A quick guide on joining The Sandbox's Discord community & claiming your community roles.
+- [Navigation](https://docs.sandbox.game/en/general/discord-community/navigate.md)
+- [Staying Safe on Discord](https://docs.sandbox.game/en/general/discord-community/safety-report-scams.md): Guidance to avoid scammers that try to steal funds and NFTs via Discord.
+- [FAQs: Discord](https://docs.sandbox.game/en/general/discord-community/faqs-discord.md): Find answers to common questions about The Sandbox Discord Community here.
+- [Social Networks, News & Blogs](https://docs.sandbox.game/en/general/socials-news-blogs.md)
+- [Help & Contact](https://docs.sandbox.game/en/general/helpcontact.md): Find links to all FAQs pages for answers to common questions about The Sandbox here.
+- [Languages](https://docs.sandbox.game/en/general/languages.md): Find access to the community and Sandbox content in your language.
+- [Getting Started](https://docs.sandbox.game/en/accounts/getting-started.md): Everyone will participate in The Sandbox Game in their own way. Use this simple guide to begin YOUR journey in the metaverse!
+- [Beginner Resources](https://docs.sandbox.game/en/accounts/beginner-resources.md): Welcome to the community! Bookmark this page of helpful beginner resources and revisit as you learn more about The Sandbox and discover new things you want to do.
+- [Manage Account](https://docs.sandbox.game/en/accounts/manage.md): Learning resources for managing your account at The Sandbox.
+- [Create an Account](https://docs.sandbox.game/en/accounts/manage/create.md): Welcome to the community! Here is a simple guide on how to create a Sandbox account with or without a cryptocurrency wallet.
+- [Verify: KYC](https://docs.sandbox.game/en/accounts/manage/verify-kyc.md)
+- [Account Info & Tools](https://docs.sandbox.game/en/accounts/manage/info-and-tools.md): Learn about managing your account information on The Sandbox website.
+- [Manage Your Avatars](https://docs.sandbox.game/en/accounts/manage/avatar.md): Select, purchase, or create your Avatar on The Sandbox website.
+- [Create Your Profile](https://docs.sandbox.game/en/accounts/manage/create-your-profile.md)
+- [Manage Wallet](https://docs.sandbox.game/en/accounts/manage-wallet.md): Learning resources for managing your cryptocurrency wallet.
+- [Wallet: Choose, Connect](https://docs.sandbox.game/en/accounts/manage-wallet/choose-connect.md): This guide includes background information, a simple comparison, and detailed instructions to set up each type of wallet you can connect to your Sandbox account.
+- [Hardware Wallets](https://docs.sandbox.game/en/accounts/manage-wallet/hardware-wallets.md): A hardware wallet allows for stronger security measures for your cryptocurrency and other tokens.
+- [FAQs: Wallet](https://docs.sandbox.game/en/accounts/manage-wallet/faqs-wallet.md): Find answers to common questions about using a cryptocurrency wallet with your account at The Sandbox.
+- [Security Topics](https://docs.sandbox.game/en/accounts/security-topics.md): This section and its subpages offers advice on staying safe within the blockchain and protecting your assets.
+- [Account Security](https://docs.sandbox.game/en/accounts/security-topics/account.md): Use our official website to create your account and set up a strong password to protect it.
+- [Wallet Security](https://docs.sandbox.game/en/accounts/security-topics/wallet.md): Follow some general guidelines to reduce the potential for your wallet to be compromised.
+- [Internet & Social Network Security](https://docs.sandbox.game/en/accounts/security-topics/internet-and-socials.md): Stay safe while using your internet browser and on social media.
+- [Collaboration Security](https://docs.sandbox.game/en/accounts/security-topics/collaboration.md): Safely collaborate with creators or studios offering creative or metaverse services.
+- [Common Scams & Tactics](https://docs.sandbox.game/en/accounts/security-topics/common-scams-and-tactics.md): Here are some of the common scam types you may experience in the Web3 environment.
+- [Security Education Links](https://docs.sandbox.game/en/accounts/security-topics/education-links.md): Explore educational resources for blockchain security topics and visit Discord channels for security topics specifically relevant to The Sandbox.
+- [Security Tools](https://docs.sandbox.game/en/accounts/security-topics/tools.md): Information and links to third-party tools that may improve your security on the blockchain and help you manage specific security situations.
+- [Official The Sandbox Links](https://docs.sandbox.game/en/accounts/security-topics/officialtsblinks.md): The Sandbox's official web pages, software, social links, documentation, NFT collections, etc.
+- [My Wallet Was Compromised](https://docs.sandbox.game/en/accounts/security-topics/compromised.md): The Sandbox offers some advice and guidance to those with compromised cryptocurrency wallets.
+- [Play in the Metaverse](https://docs.sandbox.game/en/players/metaverse.md): Getting started as a player in The Sandbox is easy.
+- [Launcher: Download & Play](https://docs.sandbox.game/en/players/metaverse/launcher.md): The new Launcher simplifies managing downloads and helps you discover content to play. Use it to download the most up to date Game Client version and start playing in minutes!
+- [Player Guide](https://docs.sandbox.game/en/players/player-guide.md): Ready player one? Learn more about playing games in The Sandbox's metaverse.
+- [Inventory, Equipment & Stats](https://docs.sandbox.game/en/players/player-guide/inventory-equipment-and-stats.md): Equipment can transform the look of the player and modify their stats. It can be owned by the player and used across many Experiences or provided by an Experience creator for temporary use.
+- [Seasons and Events](https://docs.sandbox.game/en/players/seasons-and-events.md): Information about events at The Sandbox.
+- [Alpha Season 1](https://docs.sandbox.game/en/players/seasons-and-events/alpha-season-1.md): The Sandbox Alpha Season 1 was the first public event in The Sandbox metaverse.
+- [Alpha Season 2](https://docs.sandbox.game/en/players/seasons-and-events/alpha-season-2.md): The Sandbox Alpha Season 2 was the second public event in The Sandbox metaverse.
+- [Alpha Season 3](https://docs.sandbox.game/en/players/seasons-and-events/alpha-season-3.md): The Sandbox Alpha Season 3 was the third major public event in The Sandbox metaverse.
+- [Alpha Season 4](https://docs.sandbox.game/en/players/seasons-and-events/alpha-season-4.md): The Sandbox Alpha Season 4 was a 10 week event starting on October 9, 2024. It is now closed
+- [Alpha Season 6](https://docs.sandbox.game/en/players/seasons-and-events/alpha-season-6.md): The Sandbox Alpha Season 6 spans 9 weeks starting September 24th 2025.
+- [Season 7](https://docs.sandbox.game/en/players/seasons-and-events/season-7.md): The Sandbox Season 7 starts February 25th 2pm UTC
+- [FAQs: Seasons & Events](https://docs.sandbox.game/en/players/seasons-and-events/faqs-seasons-and-events.md): Find answers to common questions about player contests here.
+- [Claim Rewards](https://docs.sandbox.game/en/players/claim-rewards.md): Learn how to Play to Earn in The Sandbox and claim rewards.
+- [Web3 & The Sandbox](https://docs.sandbox.game/en/owners/web3-tsb.md): This short guide provides education on basic topics related to cryptocurrency wallets, NFTs, and Web3 technology in The Sandbox.
+- [SAND](https://docs.sandbox.game/en/owners/sand.md): Blockchain technology redefines ownership and empowers anyone to participate in the Sandbox Ecosystem, including governance, with SAND.
+- [Past & Expired Earning Opportunities](https://docs.sandbox.game/en/owners/sand/past-and-expired-earning-opportunities.md): An archive of all the past $SAND and NFT earning events from 2020-2021. Seasons and Events have become frequent, so individual earning opportunities are no longer documented here.
+- [FAQs: SAND](https://docs.sandbox.game/en/owners/sand/faqs-sand.md)
+- [LAND](https://docs.sandbox.game/en/owners/land.md): Blockchain technology redefines ownership and empowers anyone to become a game publisher with virtual LAND.
+- [Estates](https://docs.sandbox.game/en/owners/land/estates.md): Learn more about Estates in The Sandbox and how to leverage them for amazing gameplay across multiple Experiences.
+- [Premium LAND](https://docs.sandbox.game/en/owners/land/premium-land.md): Learn the benefits of Premium LAND in The Sandbox metaverse.
+- [What Can I Do with LAND?](https://docs.sandbox.game/en/owners/land/what-can-i-do-with-land.md)
+- [Customise Your LAND on the Map](https://docs.sandbox.game/en/owners/land/what-can-i-do-with-land/customise-your-land-on-the-map.md): A guide on how to change the way your LAND looks on The Sandbox map
+- [How to Buy LAND](https://docs.sandbox.game/en/owners/land/buy-land.md): To publish an experience in The Sandbox you need to own or rent LAND. Learn how to buy LAND here. Updates about renting will come in the future.
+- [The Sandbox Public LAND Sales (Polygon)](https://docs.sandbox.game/en/owners/land/buy-land/tsb-land-sales.md): Purchase regular or premium LAND NFTs to publish Experiences to the Map, where players can easily discover your content. Premium LANDs are located near partners, and come with added benefits.
+- [Past Public LAND Sales](https://docs.sandbox.game/en/owners/land/buy-land/tsb-land-sales/dates.md): Past LAND Sale dates (2021-2023)
+- [OpenSea](https://docs.sandbox.game/en/owners/land/buy-land/opensea.md): A step-by-step guide on purchasing NFTs from the secondary market known as OpenSea.
+- [Identifying Legitimate LANDs on OpenSea](https://docs.sandbox.game/en/owners/land/buy-land/opensea/legitimate-lands.md): A quick guide on how to identify legitimate LANDs on OpenSea. And how to report the dodgy ones.
+- [FAQs: LAND](https://docs.sandbox.game/en/owners/land/faqs.md): Learn more about acquiring, selling and renting LAND.
+- [Play & Create Tokens](https://docs.sandbox.game/en/owners/play-and-create-tokens.md): Learn more about tokens used for playing and creating.
+- [Rights, Ownership & Copyright of Assets](https://docs.sandbox.game/en/owners/play-and-create-tokens/rights-ownership-and-copyright-of-assets.md)
+- [Rights, Ownership & Copyright of Games](https://docs.sandbox.game/en/owners/play-and-create-tokens/rights-ownership-and-copyright-of-games.md)
+- [Staking](https://docs.sandbox.game/en/owners/staking.md)
+- [Discontinued Staking Programs](https://docs.sandbox.game/en/owners/staking/discontinued-staking-programs.md): Information about discontinued SAND staking programs.
+- [Staking Troubleshooting](https://docs.sandbox.game/en/owners/staking/staking-troubleshooting.md): Help with troubleshooting common error messages when staking.
+- [FAQs: Staking](https://docs.sandbox.game/en/owners/staking/faqs-staking.md): Our community's most commonly asked staking questions - Answered!
+- [The Sandbox Bridge](https://docs.sandbox.game/en/owners/tsb-bridge.md): The Sandbox Bridge is a helpful tool to shift your content between blockchain networks. Learn everything you need to know about The Sandbox Bridge and how to use it.
+- [Bridge SAND to Polygon](https://docs.sandbox.game/en/owners/tsb-bridge/bridge-sand-to-polygon.md): Instructions to deposit SAND from the Ethereum to Polygon network.
+- [Bridge LAND to Polygon](https://docs.sandbox.game/en/owners/tsb-bridge/bridge-land-to-polygon.md): Instructions to deposit LAND from the Ethereum to Polygon network.
+- [Bridge SAND to Ethereum](https://docs.sandbox.game/en/owners/tsb-bridge/bridge-sand-to-ethereum.md): Instructions to withdraw SAND from the Polygon to Ethereum network.
+- [Bridge LAND to Ethereum](https://docs.sandbox.game/en/owners/tsb-bridge/bridge-land-to-ethereum.md): Instructions to withdraw LAND from the Polygon to Ethereum network.
+- [FAQs: The Sandbox Bridge](https://docs.sandbox.game/en/owners/tsb-bridge/faqs.md)
+- [About The Sandbox](https://docs.sandbox.game/en/about/about-the-sandbox.md)
+- [The Sandbox Team](https://docs.sandbox.game/en/about/about-the-sandbox/the-sandbox-team.md)
+- [Software Ecosystem](https://docs.sandbox.game/en/about/about-the-sandbox/software-ecosystem.md): See how The Sandbox Game's no-code tools are integrated to create experiences your community will love!
+- [Our Charity Contributions](https://docs.sandbox.game/en/about/about-the-sandbox/our-charity-contributions.md): Find out more about the charity work and contributions by The Sandbox.
+- [Partnerships](https://docs.sandbox.game/en/about/partnerships.md): The Sandbox is open to receiving partnership proposals or proposals for other collaborations and mutually beneficial relationships.
+- [The Sandbox Foundation](https://docs.sandbox.game/en/about/the-sandbox-foundation.md): Learn more about the Foundation on The Sandbox.
+- [Terms of Use, Privacy & Legal](https://docs.sandbox.game/en/about/terms-of-use-privacy-and-legal.md): Information regarding The Sandbox's terms of use and privacy policy.
+
+## Creators
+
+- [Welcome to the Creator Portal](https://docs.sandbox.game/en/creator/welcome-to-the-creator-portal.md): The Creator Portal is your home base to grow as a creator of any skill or experience level. Bookmark and revisit for resource updates!
+- [Learn Creator Basics](https://docs.sandbox.game/en/creator/basics.md): Valuable information for all creators, starting with the key ingredients of an Experience and an overview of The Sandbox creative ecosystem.
+- [Scale & LAND Use](https://docs.sandbox.game/en/creator/basics/scale.md): Get the most out of your virtual LANDs with guidelines about using the 3D space.
+- [Assets & Equipment](https://docs.sandbox.game/en/creator/basics/assets.md): The utility of any asset depends on how it is constructed in VoxEdit, what Attributes are created when it is uploaded or minted (for equipment), and how it is brought to life in Game Maker with logic.
+- [Avatars & Character](https://docs.sandbox.game/en/creator/basics/avatars.md): An avatar represents the player's identity and is a means of interaction with your creative content. Avatars can impact storytelling, engagement, and logic in an Experience.
+- [Look & Feel](https://docs.sandbox.game/en/creator/basics/look-feel.md): Camera and controls are player-centric. Design Experiences with the player's perspective in mind.
+- [Logic & Gameplay](https://docs.sandbox.game/en/creator/basics/logic-and-gameplay.md): To make high quality content, all creators need to know what is possible in The Sandbox metaverse, and level designers need technical resources to carry it out. Find these resources here.
+- [FAQs: Gameplay](https://docs.sandbox.game/en/creator/basics/faqs-gameplay.md)
+- [FAQs: Assets](https://docs.sandbox.game/en/creator/basics/faqs-assets.md)
+- [Monetisation](https://docs.sandbox.game/en/creator/monetisation.md): There are new ways to monetise your creations in The Sandbox whether you are an asset creator, an Experience builder, or both!
+- [Create Experiences](https://docs.sandbox.game/en/creator/game-maker/create-experiences.md)
+- [Beginners](https://docs.sandbox.game/en/creator/game-maker/beginners.md): Find your way in Game Maker with core tutorial videos and hands-on activities to learn about building a physical world and applying logic.
+- [Play/Test](https://docs.sandbox.game/en/creator/game-maker/beginners/play-test.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Build with Blocks](https://docs.sandbox.game/en/creator/game-maker/beginners/build-with-blocks.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Place Assets](https://docs.sandbox.game/en/creator/game-maker/beginners/place-assets.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Set Object Actions](https://docs.sandbox.game/en/creator/game-maker/beginners/set-object-actions.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Trigger Logic](https://docs.sandbox.game/en/creator/game-maker/beginners/trigger-logic.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Craft Quests](https://docs.sandbox.game/en/creator/game-maker/beginners/craft-quests.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Set Up Mechanics](https://docs.sandbox.game/en/creator/game-maker/beginners/set-up-mechanics.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Build Multiplayer Games](https://docs.sandbox.game/en/creator/game-maker/beginners/build-multiplayer-games.md): This activity is included in an 8-part, 1 hour series to learn Game Maker. Short, focused topics with guided practice will give you practical experience building useful logic for creating games.
+- [Docs](https://docs.sandbox.game/en/creator/game-maker/docs.md): Technical documentation for creating Experiences with Game Maker.
+- [Navigate Game Maker Home](https://docs.sandbox.game/en/creator/game-maker/docs/navigate-game-maker-home.md): The Game Maker home page guides you to open or create a new Experience, download and explore learning templates and landscape templates, or open and play Experiences shared to the Drafts Gallery.
+- [Manage Experiences](https://docs.sandbox.game/en/creator/game-maker/docs/manage-experiences.md)
+- [Controls & Shortcuts](https://docs.sandbox.game/en/creator/game-maker/docs/controls-and-shortcuts.md): Camera controls are what you use to navigate your land while playing or editing an Experience.
+- [Build Menus](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus.md): The Game Maker Builder Interface is the main work area you will use to create a new or existing Experience.
+- [Top Bar](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/top-bar.md): This section of the Interface lets you save your Experience, change settings, test, and Share or Launch the entire Experience.
+- [Gameplay](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/top-bar/gameplay.md): Gameplay settings control how your Experience appears.
+- [Side Bar](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/side-bar.md): Side bar tools manage object position and relationships. Manipulate objects, organise a hierarchy of object relationships, or save presets of custom object groups to build fast or spawn during play.
+- [Hierarchy](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/side-bar/hierarchy.md)
+- [Presets](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/side-bar/presets.md)
+- [Library & Quick Access Bar](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/library-and-quick-access-bar.md): This section of the Interface is where you can choose blocks and assets to add to your Experience.
+- [Grid System & Snap Tool](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/grid-system-and-snap-tool.md)
+- [Properties Panel](https://docs.sandbox.game/en/creator/game-maker/docs/build-menus/properties-panel.md): An Object's Properties contain the variables that define how it will be physically and logically interactive in your Experience.
+- [Using Blocks](https://docs.sandbox.game/en/creator/game-maker/docs/using-blocks.md): Blocks form the terrain of your experience with a variety of textures and transparencies.
+- [Using Assets & Objects](https://docs.sandbox.game/en/creator/game-maker/docs/using-assets-and-objects.md): What is an Asset? How does it become an Object in Game Maker?
+- [Behaviour & Component Parameters](https://docs.sandbox.game/en/creator/game-maker/docs/using-assets-and-objects/behaviour-and-component-parameters.md): Parameters are settings that allow you to customize Behaviours and Components.
+- [Tags](https://docs.sandbox.game/en/creator/game-maker/docs/using-assets-and-objects/tags.md): Tags are part of an object's identity. Your Experience logic can detect and respond to each object's unique set of tags to create custom interactions.
+- [Messages](https://docs.sandbox.game/en/creator/game-maker/docs/using-assets-and-objects/messages.md): Objects can send and receive messages to create an interactive experience.
+- [Behaviours](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours.md): A behaviour is a logic bundle that controls an object's actions so you can quickly build custom gameplay with no code.
+- [NPC - AI Pawns](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns.md)
+- [Citizen](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/citizen.md): Passive moving NPC.
+- [Farmer](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/farmer.md): Harvesting Behaviour that appears to collect plants.
+- [Healer](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/healer.md): Restores health when you or friendlies are injured. Flees from hostiles.
+- [Melee Enemy](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/melee-enemy.md): Hostile NPC that attack you or others that get too close.
+- [Predator](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/predator.md): Hostile creature that walks until its hungry and attacks friendlies.
+- [Prey](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/prey.md): Passive creature who eats plants and flees from Hostiles.
+- [Soldier](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/soldier.md): NPC that attacks Hostiles who also defends itself when attacked.
+- [Friendly NPC](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/npc-ai-pawns/friendly-npc.md)
+- [Movement](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement.md)
+- [Door](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/door.md): Trigger to play an open or close animation, or rotate the Object 90 degrees and back.
+- [Bird](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/bird.md): Move in a circular motion with potential randomisation.
+- [Basic Platform](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/basic-platform.md)
+- [Advanced Platform](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/advanced-platform.md): New Game Maker 0.9 behaviour.
+- [Projectile](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/projectile.md): New feature introduced with Game Maker 0.10.
+- [Rotate](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/movement/rotate.md): Introduced in GM 0.11.
+- [Basic Logic](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic.md)
+- [Message Broadcaster](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/message-broadcaster.md): Sends a message to activate another event.
+- [Combination Code](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/combination-code.md): Introduced in GM 0.11.
+- [Asker](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/asker.md): \[MP] Asker now triggers with messages other than Interact in Game Maker 0.10.
+- [Timed Events](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/timed-events.md)
+- [Crowd Event](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/crowd-event.md): Feature introduced in Game Maker 0.8 with multiplayer synchronisation.
+- [Spawn Point & Avatar's Feature](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/basic-logic/spawn-point-and-avatars-feature.md): New in GM 0.10. Introduces team gameplay, varied spawn point setups, and some components applied to avatars (Avatar's Feature).
+- [Modifiers](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers.md)
+- [Actor Property Switcher](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers/actor-property-switcher.md): Updated in Game Maker 0.10 with a new Property to switch: UI Visibility.
+- [Multi](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers/multi.md): Ported in Game Maker 0.10 for multiplayer compatibility, with a more precise spawning area. Documentation is being updated.
+- [Void](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers/void.md): Ported in Game Maker 0.10 for multiplayer compatibility, with a more precise spawning area. Documentation is being updated.
+- [Asset Spawner](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers/asset-spawner.md): Enhanced in Game Maker 0.9 with a preview button so there's no need to test in Play mode.
+- [Replace Asset](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/modifiers/replace-asset.md)
+- [Visual](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/visual.md)
+- [Post Process Effects](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/visual/post-process-effects.md): Introduced in Game Maker 0.8.
+- [Weather Switcher](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/visual/weather-switcher.md): Introduced in Game Maker 0.8. Overrides global light ambience set in the Gameplay menu.
+- [Animated Decoration](https://docs.sandbox.game/en/creator/game-maker/docs/behaviours/visual/animated-decoration.md): Enhanced in Game Maker 0.8 to allow for multiple animation configurations which send messages, and a preview button added in 0.9.
+- [Components](https://docs.sandbox.game/en/creator/game-maker/docs/components.md): A component is a logic bundle that increases an object's interactive potential through player actions so you can quickly build custom gameplay with no code.
+- [Actions](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions.md)
+- [Climbable](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/climbable.md): Allows players to climb objects and defines the speed at which they climb.
+- [Avatar Teleport](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/avatar-teleport.md): Introduced with Game Maker 0.9. Replaces previous complex logic to trigger player death and respawn in a new location. Updated in Game Maker 0.10 to teleport groups. Documentation is being updated.
+- [Collectable](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/collectable.md): Can be collected by the player and added to your Inventory. May trigger other logic with a message if consumable or equipment.
+- [Drop](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/drop.md): Allows things to be dropped on the floor when the Object dies or is triggered.
+- [Slide](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/slide.md): Allows to set any object to be a sliding surface, making it impossible for players to walk or run up the surface.
+- [Speaker](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/speaker.md): Allows to display a text Balloon above the Object when bring interacted with.
+- [Pickable](https://docs.sandbox.game/en/creator/game-maker/docs/components/actions/pickable.md): Allows the Object to be picked up by the Player. GM 0.11 update: smoother item pickup interactions.
+- [Triggers](https://docs.sandbox.game/en/creator/game-maker/docs/components/triggers.md)
+- [Plant](https://docs.sandbox.game/en/creator/game-maker/docs/components/triggers/plant.md): Multi-stage (growing) asset, eaten by herbivores.
+- [Switch](https://docs.sandbox.game/en/creator/game-maker/docs/components/triggers/switch.md)
+- [Button](https://docs.sandbox.game/en/creator/game-maker/docs/components/triggers/button.md): This legacy behaviour was moved to a component in Game Maker 0.10 for to improve interconnection of logic. Documentation is being updated.
+- [Trigger Volume](https://docs.sandbox.game/en/creator/game-maker/docs/components/triggers/trigger-volume.md)
+- [Status](https://docs.sandbox.game/en/creator/game-maker/docs/components/status.md)
+- [Toggle](https://docs.sandbox.game/en/creator/game-maker/docs/components/status/toggle.md): Turn the Behaviour of the Object on or off using Messages.
+- [Power Up](https://docs.sandbox.game/en/creator/game-maker/docs/components/status/power-up.md): Create more exciting gameplay with stat power ups. These can be used as buffs and debuffs!
+- [Avatar Checkpoint](https://docs.sandbox.game/en/creator/game-maker/docs/components/status/avatar-checkpoint.md): Introduced in Game Maker 0.9. Replaces using Player settings (previously in Global Parameters) to create a checkpoint system using messages.
+- [Health](https://docs.sandbox.game/en/creator/game-maker/docs/components/status/health.md): Give an asset health with settings to kill or respawn the asset.
+- [Gameplay](https://docs.sandbox.game/en/creator/game-maker/docs/components/gameplay.md)
+- [Defeat](https://docs.sandbox.game/en/creator/game-maker/docs/components/gameplay/defeat.md): Set conditions here to force a Game Over.
+- [Victory](https://docs.sandbox.game/en/creator/game-maker/docs/components/gameplay/victory.md): Display victory message when activated.
+- [Raycast](https://docs.sandbox.game/en/creator/game-maker/docs/components/gameplay/raycast.md): Point, aim, click! Send a message to a precise point
+- [NFT](https://docs.sandbox.game/en/creator/game-maker/docs/components/nft.md)
+- [NFT Sensor](https://docs.sandbox.game/en/creator/game-maker/docs/components/nft/nft-sensor.md): New in GM 0.9. GM 0.10 update: add multiple NFTs/collections. GM 0.11 update: new "Equipped" toggle.
+- [NFT Image Display](https://docs.sandbox.game/en/creator/game-maker/docs/components/nft/nft-image-display.md): GM 0.9 update: Ethereum and Polygon blockchain compatibility. GM 0.10 update: GIF NFTs supported. GM 0.11 update: WEBP supported.
+- [Image Display](https://docs.sandbox.game/en/creator/game-maker/docs/components/nft/image-display.md): Allows to display an image in the Frame of an Object. Not all Objects have this Frame.
+- [NFT Details Display](https://docs.sandbox.game/en/creator/game-maker/docs/components/nft/nft-details-display.md): Display NFT Information 'in-game' as well as link to their associated marketplace.
+- [Display](https://docs.sandbox.game/en/creator/game-maker/docs/components/display.md)
+- [Indicator](https://docs.sandbox.game/en/creator/game-maker/docs/components/display/indicator.md): Allows to define how cursors, names, arrows and more are displayed.
+- [Rarity VFX](https://docs.sandbox.game/en/creator/game-maker/docs/components/display/rarity-vfx.md): Allows to have special visual effects around the asset.
+- [Visual FX](https://docs.sandbox.game/en/creator/game-maker/docs/components/display/visual-fx.md): Visual FX behaviour can be applied to objects and the area around them for small and large visual ambience and feedback for players. They can also be applied to avatars through Crowd Event behaviour.
+- [Light](https://docs.sandbox.game/en/creator/game-maker/docs/components/display/light.md): Introduced in Game Maker 0.8. In Game Maker 0.10, this was moved to be a component for improved interconnection of logic. Documentation is being updated.
+- [Audio](https://docs.sandbox.game/en/creator/game-maker/docs/components/audio.md)
+- [Play Sound](https://docs.sandbox.game/en/creator/game-maker/docs/components/audio/play-sound.md): GM 0.11 update: Wwise integration for the highest quality audio. Hundreds of new sound effects added.
+- [Objectives](https://docs.sandbox.game/en/creator/game-maker/docs/objectives.md): GM 0.11 update: Objectives system ported for multiplayer compatibility.
+- [Game Rules](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules.md): New in GM 0.9. GM 0.10: evolved math rule, new "Float" variable, share/reuse rulesets (copy/paste), new inputs & events, etc. GM 0.11: new "Team" variable, connectors, etc.
+- [Math](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/math.md)
+- [Time](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/time.md)
+- [Comparisons](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/comparisons.md)
+- [Replace Variable Values](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/replace-variable-values.md)
+- [Game Screen](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/game-screen.md)
+- [Triggers](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/triggers.md)
+- [Events](https://docs.sandbox.game/en/creator/game-maker/docs/game-rules/events.md)
+- [Build Singleplayer & Multiplayer Logic](https://docs.sandbox.game/en/creator/game-maker/docs/build-singleplayer-and-multiplayer-logic.md): Use this one page guide to learn about Game Maker's logic systems and how they work together for single or multiplayer gameplay. Follow links as needed for more details in our documentation.
+- [Quality Guidelines](https://docs.sandbox.game/en/creator/game-maker/docs/gm-guidelines.md)
+- [Optimisation](https://docs.sandbox.game/en/creator/game-maker/docs/gm-guidelines/optimisation.md): The logic and assets in your Experience impact how it performs when played.
+- [Testing](https://docs.sandbox.game/en/creator/game-maker/docs/gm-guidelines/testing.md)
+- [Playability](https://docs.sandbox.game/en/creator/game-maker/docs/gm-guidelines/playability.md): Use the following guidelines to make your Experiences more immersive, polished, and player friendly!
+- [Templates](https://docs.sandbox.game/en/creator/game-maker/docs/templates.md): Tutorial and Gaming templates in Game Maker are a great way to learn about creating logic schemas or creating certain types of gameplay. This list will gradually be updated with more details.
+- [Creative Guides](https://docs.sandbox.game/en/creator/game-maker/creative-guides.md)
+- [Game Rules Guide](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide.md)
+- [Point Race](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/point-race.md)
+- [Collect Points](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/collect-points.md)
+- [Time Trial](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/time-trial.md)
+- [Combo](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/combo.md)
+- [Hunger](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/hunger.md)
+- [Poison](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/poison.md)
+- [Shop](https://docs.sandbox.game/en/creator/game-maker/creative-guides/game-rules-guide/shop.md)
+- [Logic Guide](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide.md)
+- [Abilities](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/abilities.md): Players can gain Abilities when wearing certain equipment if an Experience allows it.
+- [Equipment Based Logic - On Equip / NFT Sensor](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/equipment-based-logic-on-equip-nft-sensor.md): Explore creative possibilities to trigger logic with equipment using the Collectable component's On Equip feature or NFT Sensor.
+- [Doors & Chests](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/doors-and-chests.md)
+- [Collectibles](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/collectibles.md)
+- [Text, Quests & Icons](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/text-quests-and-icons.md)
+- [Platforms](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/platforms.md)
+- [Victory & Defeat](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/victory-and-defeat.md)
+- [Miscellaneous](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/miscellaneous.md)
+- [NFT Inspect](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/nft-inspect.md)
+- [Fighting](https://docs.sandbox.game/en/creator/game-maker/creative-guides/logic-guide/fighting.md)
+- [Experience Guide](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide.md)
+- [Tower Defense](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/tower-defense.md)
+- [Horror / Backrooms](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/horror-backrooms.md)
+- [Solo Platforming](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/solo-platforming.md)
+- [Social Platforming](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/social-platforming.md)
+- [Resource Management](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/resource-management.md)
+- [Cooking Simulator](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/cooking-simulator.md)
+- [Survival](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/survival.md)
+- [Action / Adventure](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/action-adventure.md)
+- [Night Clubs & Concerts](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/night-clubs-and-concerts.md)
+- [Virtual Home & Architecture](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/virtual-home-and-architecture.md)
+- [NFT Gallery / In-Game Shop](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/nft-gallery-in-game-shop.md)
+- [Puzzle Games](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/puzzle-games.md)
+- [Social Hubs](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/social-hubs.md)
+- [Simulation](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-guide/simulation.md)
+- [Experience Design Techniques](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques.md)
+- [Narrative Design](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/narrative-design.md)
+- [Worldbuilding](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/narrative-design/worldbuilding.md)
+- [Storyboard](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/narrative-design/storyboard.md)
+- [Dialogue](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/narrative-design/dialogue.md)
+- [Art Design](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/art-design.md)
+- [Experience Art Concept](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/art-design/experience-art-concept.md): A cohesive art concept can make an Experience more immersive and memorable.
+- [Asset Curation](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/art-design/asset-curation.md)
+- [Blockout Aesthetics](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/art-design/blockout-aesthetics.md)
+- [Detailing / Dressing](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/art-design/detailing-dressing.md)
+- [3D Spatial Layout](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/3d-spatial-layout.md)
+- [Rough Base Map](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/3d-spatial-layout/rough-base-map.md): Spend more time planning your layout so you will spend much less time revising it later.
+- [Greyboxing / Blockout](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/3d-spatial-layout/greyboxing-blockout.md)
+- [Game Design](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/game-design.md)
+- [Ramp of Difficulty](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/game-design/ramp-of-difficulty.md): Ramp of difficulty is part of the balance that makes your Experience playable and enjoyable. Players feel a sense of growth in themselves as they progress.
+- [Risk & Reward](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/game-design/risk-and-reward.md): Risk and reward are part of the balance that makes your Experience exciting to play. Players feel tempted to test their limits, challenged by temporary failure and thrilled with victory and discovery.
+- [Game Loops & Decisions](https://docs.sandbox.game/en/creator/game-maker/creative-guides/experience-design-techniques/game-design/game-loops-and-decisions.md)
+- [Game Production Guide](https://docs.sandbox.game/en/creator/game-maker/game-production-guide.md): Use our templates and resources to make your project faster, easier, and better.
+- [Concept](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/concept.md): The Concept sprint is to define your project's vision clearly, understand what you need, and decide how to get the project done.
+- [Blockout](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/blockout.md)
+- [Logic](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/logic.md)
+- [Art](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/art.md)
+- [Quality Assurance](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/quality-assurance.md)
+- [Polish](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/polish.md)
+- [Marketing](https://docs.sandbox.game/en/creator/game-maker/game-production-guide/marketing.md)
+- [Publish Experiences](https://docs.sandbox.game/en/creator/game-maker/publish-experiences.md): New tools are now available to launch Experiences to your LAND today.
+- [Experience Manager](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager.md): Use the Experience Manger to prepare an Experience Page, link your Experience to LAND on the map, review assets, verify version compatibility, and set access restrictions.
+- [Experience Analytics](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-analytics.md): The Experience Analytics tool is a free page and experience analytics tool that helps creators better understand their experience’s and page’s overall performance.
+- [Experience Page](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-page.md): Use the Experience Page Editor to create a stunning landing space to tease or engage your community with your creative content.
+- [Content Guide](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-page/content-guide.md): Prepare your Experience Page content in an optimal format.
+- [Marketing](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-page/marketing.md)
+- [Create an Experience Trailer](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-page/create-an-experience-trailer.md): Your Experience trailer is a way to tell the story of your Experience, but it can also tell part of the story of a universe of Experiences or your brand.
+- [Player Engagement](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/experience-page/player-engagement.md)
+- [Map Location](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/map-location.md): Use the Map Location tool to link your Experiences to virtual LANDs so your descriptive content from your Experience Page can be seen on the metaverse map.
+- [Asset Review](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/asset-review.md): The Asset Review tool provides a summary of the status of the assets, or entities, included in your Experience and makes it easy to purchase assets you've tested out and are ready to buy.
+- [Access Restrictions](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/experience-manager/access-restrictions.md): Use the Asset Restrictions tool to set a future launch date and NFT requirements for your Experience.
+- [Collaborating With Third Parties](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/collaborating-with-third-parties.md): Important considerations for safely collaborating with creators or studios offering creative or metaverse services.
+- [FAQs: Experience Publishing](https://docs.sandbox.game/en/creator/game-maker/publish-experiences/faqs-experience-publishing.md): Find answers to common questions about Experience Publishing here.
+- [Version Notes & Changelogs](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs.md): Version Notes below provide a visual summary with links to updated documentation for new features, tools, and enhancements.
+- [Game Maker 0.12](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.12.md)
+- [0.12 Upgrade Guide](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.12/0.12-upgrade-guide.md): Please check these topics if you're migrating an older project into 0.12 as these changes could specifically impact how your game works.
+- [Game Maker 0.11](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.11.md): Welcome to the new Game Maker 0.11! Updates included below.
+- [0.11 Upgrade Guide](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.11/0.11-upgrade-guide.md): Please review these topics to update old Experiences and use 0.11 features best.
+- [Game Maker 0.10](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.10.md): Welcome to the new Game Maker 0.10! Updates included below.
+- [Game Maker 0.9](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.9.md): Updates included in Game Maker 0.9 (Active)
+- [Game Maker 0.8](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.8.md): Updates included in Game Maker 0.8.
+- [Game Maker 0.7](https://docs.sandbox.game/en/creator/game-maker/version-notes-and-changelogs/game-maker-0.7.md): Updates included in Game Maker 0.7.
+- [FAQs: Game Maker](https://docs.sandbox.game/en/creator/game-maker/faqs-game-maker.md): Find answers to common questions about Game Maker here.
+- [Create Assets](https://docs.sandbox.game/en/creator/voxedit/create-assets.md): Use VoxEdit to create assets such as blocks, characters, props, equipment, or Experience passes. Soon you will be able to sell them on The Sandbox Marketplace.
+- [Beginners](https://docs.sandbox.game/en/creator/voxedit/beginners.md): Find your way in VoxEdit with core tutorial videos and hands-on activities to learn the creative modules and tools.
+- [Docs](https://docs.sandbox.game/en/creator/voxedit/docs.md): Technical documentation for creating Assets with VoxEdit.
+- [Navigate VoxEdit Home](https://docs.sandbox.game/en/creator/voxedit/docs/navigate-voxedit-home.md): The VoxEdit home page guides you to select your language, find social media links, news updates, tutorial videos, asset templates, and three creative modules.
+- [Controls & Shortcuts](https://docs.sandbox.game/en/creator/voxedit/docs/controls-and-shortcuts.md)
+- [Panels & Custom Layouts](https://docs.sandbox.game/en/creator/voxedit/docs/panels-and-custom-layouts.md): Take full control with our new Panel System! Customize your workspace by showing, hiding, snapping, collapsing, and expanding panels to create the perfect layout.
+- [Block](https://docs.sandbox.game/en/creator/voxedit/docs/block.md): Use the VoxEdit Block Editor to create the fundamental building blocks of The Sandbox.
+- [Modeler](https://docs.sandbox.game/en/creator/voxedit/docs/modeler.md): Use the VoxEdit Modeler to create simple assets, or models, in The Sandbox. These can be combined to make compound and animated assets using the Animator.
+- [Use Modes & Tools Together](https://docs.sandbox.game/en/creator/voxedit/docs/modeler/use-modes-and-tools-together.md): Modes and Tools are used together in the Modeler to select, create, paint, and erase voxels.
+- [Set the Pivot Point](https://docs.sandbox.game/en/creator/voxedit/docs/modeler/set-the-pivot-point.md)
+- [Create Frame Assets](https://docs.sandbox.game/en/creator/voxedit/docs/modeler/create-frame-assets.md): Frame assets are a special asset class used to display 2D NFTs, images, and video. There are a few specific requirements for making custom frame assets (e.g., they can not be animated).
+- [Animator](https://docs.sandbox.game/en/creator/voxedit/docs/animator.md): Use the VoxEdit Animator to create Compound or Animated assets in The Sandbox.
+- [Build a Rig](https://docs.sandbox.game/en/creator/voxedit/docs/animator/build-a-rig.md)
+- [Create an Animated Asset](https://docs.sandbox.game/en/creator/voxedit/docs/animator/create-an-animated-asset.md)
+- [Use Inverse Kinematics](https://docs.sandbox.game/en/creator/voxedit/docs/animator/use-inverse-kinematics.md)
+- [Templates](https://docs.sandbox.game/en/creator/voxedit/docs/templates.md): Templates are easily customisable source projects including equipment items and animated doors, buttons, and living things.
+- [Quality Guidelines](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines.md)
+- [Asset Types & Collisions](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/asset-types-and-collisions.md)
+- [Asset Scale](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/asset-scale.md): Use the recommendations here to create assets in a scale that best suits builders and players.
+- [Node Efficiency](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/node-efficiency.md)
+- [Pivot Point & Alignment](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/pivot-point-and-alignment.md)
+- [Animation](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/animation.md)
+- [Visual Quality](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/visual-quality.md)
+- [Asset Name & Description](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/asset-name-and-description.md)
+- [Manage Files & Folders](https://docs.sandbox.game/en/creator/voxedit/docs/ve-guidelines/manage-files-and-folders.md)
+- [Creative Guides](https://docs.sandbox.game/en/creator/voxedit/creative-guides.md)
+- [Asset Guide](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide.md): Use this guide to narrow down what module and what creative techniques you'll need for your next VoxEdit creation.
+- [Structures & Landmarks](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks.md): Detailed guidelines, use cases, and tips for creating buildings, landmarks, and other larger structures.
+- [Basic Building: No Entry](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/basic-building-no-entry.md)
+- [Animated Building: No Entry](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/animated-building-no-entry.md)
+- [Unanimated Building: Player Entry](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/unanimated-building-player-entry.md)
+- [Landmark](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/landmark.md)
+- [Building Facade](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/building-facade.md)
+- [Structure Component Parts](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/structure-component-parts.md)
+- [Modular Architecture](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/structures-and-landmarks/modular-architecture.md)
+- [Humanoids & Animals](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/humanoids-and-animals.md)
+- [Vehicles](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/vehicles.md)
+- [Equipment](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/equipment.md): Detailed guidelines, use cases, and tips for creating equipment.
+- [Art: Statues, Paintings](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings.md)
+- [Animated Art Screens](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings/animated-art-screens.md)
+- [Statues](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings/statues.md)
+- [Kinetic Art Sculptures](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings/kinetic-art-sculptures.md)
+- [Paintings](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings/paintings.md)
+- [Performance Art](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/art-statues-paintings/performance-art.md)
+- [Furniture](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/furniture.md): Detailed guidelines, use cases and tips for creating furniture.
+- [Platforms](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/platforms.md)
+- [Doors, Gates, and Windows](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/doors-gates-and-windows.md): Detailed guidelines, use cases and tips for creating doors, gates and windows.
+- [Multi Design Door Asset](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/doors-gates-and-windows/multi-design-door-asset.md)
+- [Chests & Other Animated Interactions](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/chests-and-other-animated-interactions.md)
+- [Plants, Trees](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/plants-trees.md)
+- [Objects, Machines](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/objects-machines.md)
+- [Signs & Text](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/signs-and-text.md)
+- [Obstacles](https://docs.sandbox.game/en/creator/voxedit/creative-guides/asset-guide/obstacles.md)
+- [Art Techniques](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques.md)
+- [Asset References](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/asset-references.md): Even the most skilled and experienced artists create moodboards as references to create their content.
+- [3D Design](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design.md)
+- [Need to Simplify?](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/need-to-simplify.md): Have you made something that has become too complex? Let's look at ways to simplify and optimize assets for better utility during play.
+- [Trim All Volumes](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/trim-all-volumes.md): The smallest collision boundary around every model in your asset will make it feel more realistic as an object in the game.
+- [Optimize with Texture](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/optimize-with-texture.md): 3D design in The Sandbox should be as simple as possible for the best game performance. 2D Pixel art techniques bring your 3D creations to life with no additional impact on gameplay.
+- [Curved Edges: Blocky Style](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/curved-edges-blocky-style.md)
+- [Break Down Objects](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/break-down-objects.md)
+- [Create Smooth Angled Lines](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/create-smooth-angled-lines.md)
+- [Circular Shapes: Cross Technique](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/3d-design/circular-shapes-cross-technique.md)
+- [Colour, Texture & Depth](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/colour-texture-and-depth.md): Choose attractive colour combinations, add textures, create depth, and add effects that make even simple voxel art stand out.
+- [Colour Choice & Strategy](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/colour-texture-and-depth/colour-choice-and-strategy.md): Learn to use colour like a pro, whether you want to choose from the Sandbox Extended Palette or create a custom palette of your own and develop a unique art style for an Experience.
+- [Textures & Materials](https://docs.sandbox.game/en/creator/voxedit/creative-guides/art-techniques/colour-texture-and-depth/textures-and-materials.md): Texturing is pixel art, a 2D style that can make your creations look more realistic, even with the blocky 3D style used in The Sandbox Game.
+- [Upload Assets to Workspaces](https://docs.sandbox.game/en/creator/voxedit/upload-assets-to-workspaces.md): Upload assets from VoxEdit to your Workspace so you can prepare them for the Marketplace or discover them in your Game Maker library to build an Experience.
+- [Mint & List Assets to Sell](https://docs.sandbox.game/en/creator/voxedit/mint-assets-sell-nfts.md)
+- [Changelogs](https://docs.sandbox.game/en/creator/voxedit/changelogs.md): View the change log history for details of updates to VoxEdit, including enhancements, bug fixes, and known issues.
+- [Open Source Assets](https://docs.sandbox.game/en/creator/voxedit/open-source-assets.md): Download a ZIP file, extract, and open these fun projects in VoxEdit that you can modify.
+- [FAQs: VoxEdit](https://docs.sandbox.game/en/creator/voxedit/faqs-voxedit.md): Find answers to common questions about VoxEdit here.
+- [Builders' Challenge](https://docs.sandbox.game/en/creator/creators-program/builders-challenge.md)
+- [Rules & Eligibility](https://docs.sandbox.game/en/creator/creators-program/builders-challenge/rules-and-eligibility.md)
+- [Earnings & Rewards](https://docs.sandbox.game/en/creator/creators-program/builders-challenge/earnings-and-rewards.md)
+- [How to Succeed in the Builders' Challenge](https://docs.sandbox.game/en/creator/creators-program/builders-challenge/how-to-succeed-in-the-builders-challenge.md)
+- [FAQs: Builders' Challenge](https://docs.sandbox.game/en/creator/creators-program/builders-challenge/faqs-builders-challenge.md)
+- [Creator Contests](https://docs.sandbox.game/en/creator/creators-program/creator-contests.md): Find out more about The Sandbox's two popular types of creative contests: VoxEdit Contests and Game Jams!
+- [Game Jams](https://docs.sandbox.game/en/creator/creators-program/game-jams.md): Earn exciting prizes and embark on the road to becoming an established Game Developer in The Sandbox metaverse!
+- [Rules & Guidelines](https://docs.sandbox.game/en/creator/creators-program/game-jams/rules-and-guidelines.md): Read all about the requirements, guidelines, and best practices for making a valid Game Jam entry.
+- [Judges & Voting](https://docs.sandbox.game/en/creator/creators-program/game-jams/judges-and-voting.md): Learn about the voting process, voting criteria, and the judges that rate your games.
+- [Explore Past Winners](https://docs.sandbox.game/en/creator/creators-program/game-jams/explore-past-winners.md): Here you will find some of the amazing games created by our past Game Jam winners!
+- [FAQs: Game Jams](https://docs.sandbox.game/en/creator/creators-program/game-jams/faqs-game-jams.md): Find answers to common questions about Game Jams here.
+- [VoxEdit Contests](https://docs.sandbox.game/en/creator/creators-program/voxedit-contests.md): Information on the VoxEdit Contests as well as how to enter them.
+- [Rules & Guidelines](https://docs.sandbox.game/en/creator/creators-program/voxedit-contests/rules-and-guidelines.md)
+- [Judges & Voting](https://docs.sandbox.game/en/creator/creators-program/voxedit-contests/judges-and-voting.md): Learn about the voting process, criteria and the judges.
+- [Explore Past Winners](https://docs.sandbox.game/en/creator/creators-program/voxedit-contests/explore-past-winners.md): Here you will find some fantastic VoxEdit assets created by our past Contest winners
+- [FAQs: Voxel Art Contests](https://docs.sandbox.game/en/creator/creators-program/voxedit-contests/faqs-voxel-art-contests.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.sandbox.game/en/welcome-to-the-sandbox.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

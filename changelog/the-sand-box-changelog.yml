@@ -1,0 +1,50 @@
+generated: '2026-08-30'
+method: searched
+source: https://developers.sandbox.game/unity/changelog/
+summary: >-
+  The Sandbox publishes exactly one changelog on its developer surface, and it covers the Developer
+  SDK for Unity rather than the REST API. It is a semver-headed list with NO DATES on any entry, so
+  cadence cannot be measured from it. Three versions are published.
+scheme: semver
+scope: Sandbox Developer SDK for Unity
+current_version: 1.1.0
+dated: false
+dated_note: >-
+  Every heading is a bare version in brackets - "[1.1.0]", "[1.0.1]", "[1.0.0]" - with no release
+  date, and the redistribution repo carries no GitHub releases and no tags to date them against.
+  `date:` is null on every entry below because the provider publishes none, not because it was
+  not checked.
+rest_api_changelog:
+  published: false
+  note: >-
+    No changelog, release notes or version history is published for the Developers REST API itself.
+entries:
+- version: 1.1.0
+  date: null
+  breaking: false
+  additions:
+  - Social features
+  - SandboxUserProfileImage editor component
+  - SandboxAvatar editor component
+  - Sandbox Asset Importer for the Project view
+  - New Asset Picker for importing assets
+  - Automatic socket/deeplink method for the Unity Editor
+  - Editor sample
+  changes:
+  - Improved stability and performance
+- version: 1.0.1
+  date: null
+  breaking: false
+  fixes:
+  - Fixed issues with endpoints
+  changes:
+  - Renamed SandboxAssetImporter to SandboxAsset
+  - Updated samples
+- version: 1.0.0
+  date: null
+  breaking: false
+  additions:
+  - SDK initialization and OAuth-based authentication
+  - Fetching and managing users, avatars, assets, collections, libraries, lands and balances
+  - Asset instantiation and preload
+  - Samples

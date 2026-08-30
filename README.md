@@ -64,5 +64,32 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Sand Box is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB Gaming Ltd
+(a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel games and
+assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155 ASSETs.
+
+For developers, The Sandbox runs a Developers HUB at
+[developers.sandbox.game](https://developers.sandbox.game/) publishing a REST API for identity,
+avatars, assets, collections, libraries and LAND ownership, an OAuth-based identity system, a Swagger
+playground, and a Developer SDK for Unity distributed as a Unity Package Manager Git dependency.
+Access is request-and-approve: credentials are issued by The Sandbox after a review.
+
+## What this profile found (2026-08-30)
+
+- **REST API documented, contract not readable.** The API Reference at
+  `https://developers.sandbox.game/api/` loads and publishes the base URL, JSON conventions, rate
+  limit and error codes. Every *other* route under `/api/` — Handling Authentication, Integration
+  Examples, and the Swagger playground at `/api/docs/` — returned nginx **HTTP 503** on 2026-08-30,
+  so no OpenAPI could be fetched. Nothing was saved to `openapi/`; see
+  `conformance/the-sand-box-conformance.yml` for the full probe record.
+- **A real `llms.txt`.** `https://docs.sandbox.game/llms.txt` serves a 65 KB GitBook documentation
+  index, saved verbatim to `llms/`.
+- **Nine first-party packages, none of them a REST client.** Eight npm packages under
+  `@sandbox-smart-contracts` (all last published 2023–2024) plus the Unity SDK, which ships as an
+  unpinned Git URL with no releases and no tags.
+- **A deleted status page and a dead bug bounty.** `status.sandbox.game` answers 200 with
+  "This Statuspage was deleted"; the Immunefi program linked from The Sandbox's own official-links
+  page 404s on all four URL forms.
+
+Secondary-market listing this company was harvested from:
 - https://www.hiive.com/securities/the-sand-box-stock

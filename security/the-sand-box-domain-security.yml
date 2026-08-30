@@ -1,0 +1,22 @@
+generated: '2026-08-30'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.sandbox.game
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  3 01:00:32 2026 GMT
+  hsts: null
+- host: developers.sandbox.game
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 25 22:15:38 2026 GMT
+  hsts: true
+  hsts_max_age: 15552000
+domains:
+- domain: sandbox.game
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

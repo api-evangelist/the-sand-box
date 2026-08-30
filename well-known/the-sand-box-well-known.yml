@@ -1,0 +1,108 @@
+generated: '2026-08-30'
+method: probed
+source: live probes of /.well-known/ on every The Sandbox host known to this profile
+summary: >-
+  Nothing is served. Five hosts were probed for the five standard documents and not one returned a
+  real document. developers.sandbox.game and docs.sandbox.game answer an honest 404 on every path;
+  api.sandbox.game answers a JSON 404 ({"error":"Page not found"}); www.sandbox.game and the apex
+  sandbox.game sit behind a Cloudflare interstitial that answers 403 "Just a moment..." to any
+  non-browser client, so those rows are "unreachable", not "confirmed absent".
+pointer_basis: >-
+  NO WellKnown pointer and NO SecurityTxt pointer are emitted. Every probe below is a 404 or a bot
+  challenge; there is no served document to point at. This file records the absence, which is valid
+  data - it must never be read as a presence.
+hosts:
+- host: https://developers.sandbox.game
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  note: >-
+    VitePress static host. Every miss returns the site's own 404 HTML shell, not a document.
+- host: https://docs.sandbox.game
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  note: >-
+    GitBook-hosted documentation. Serves a real /llms.txt (captured in llms/) but no /.well-known/.
+- host: https://api.sandbox.game
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+    body: '{"error":"Page not found"}'
+  - path: /.well-known/agent.json
+    status: 404
+    body: '{"error":"Page not found"}'
+  note: >-
+    Platform API host behind the marketplace/website. GET / and /health both return
+    {"required":"ready","optional":"ready"}. Its /docs path returns a Cloudflare Access sign-in page.
+- host: https://www.sandbox.game
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 403
+  note: >-
+    Cloudflare bot interstitial ("Just a moment...") on every path including the site root, so a 403
+    here proves nothing either way. Recorded as unreachable, never as a hit.
+- host: https://sandbox.game
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 403
+  note: Same Cloudflare interstitial as the www host.
+checked: '2026-08-30'

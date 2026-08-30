@@ -1,23 +1,126 @@
 aid: the-sand-box
-name: The Sand Box
-description: 'The Sand Box is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: The Sandbox
+description: >-
+  The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB Gaming
+  Ltd (a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel
+  games and assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155
+  ASSETs. Its creator toolchain is VoxEdit (NFT and avatar designer) and Game Maker (experience
+  designer), with a marketplace for trading assets. For developers The Sandbox runs a Developers HUB
+  publishing a REST API for identity, avatars, assets, collections, libraries and LAND ownership, an
+  OAuth-based identity system, a Swagger playground, and a Developer SDK for Unity distributed as a
+  Unity Package Manager Git dependency. It also publishes its smart-contract source and a set of
+  first-party npm packages under the @sandbox-smart-contracts scope.
+image: https://avatars.githubusercontent.com/u/63786662?v=4
 url: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-30'
 modified: '2026-08-30'
 tags:
 - Company
-apis: []
+- Metaverse
+- Gaming
+- Blockchain
+- NFT
+- Web3
+- Virtual Worlds
+- User Generated Content
+- Ethereum
+- Identity
+apis:
+- aid: the-sand-box-developers-api
+  name: The Sandbox Developers API
+  description: >-
+    The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core
+    ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets,
+    collections, libraries, inventory, LAND ownership and SAND balances - so games, tools, dashboards
+    and analytics platforms can integrate with The Sandbox metaverse. Requests are JSON over HTTPS
+    using GET, POST, PATCH and DELETE, top-level resources carry a UUIDv4 id, property names are
+    snake_case and timestamps are ISO 8601. Access is granted by request and approval; credentials
+    are issued by The Sandbox as an OAuth client id and client secret.
+  humanURL: https://developers.sandbox.game/api/
+  baseURL: https://developers.sandbox.game/api/
+  tags:
+  - Identity
+  - Avatars
+  - Assets
+  - Collections
+  - Land
+  - Metaverse
+  properties:
+  - type: APIReference
+    url: https://developers.sandbox.game/api/
+  - type: DeveloperPortal
+    url: https://developers.sandbox.game/
+  - type: GettingStarted
+    url: https://developers.sandbox.game/getting-started.html
+  - type: Authentication
+    url: authentication/the-sand-box-authentication.yml
+  - type: Conventions
+    url: conventions/the-sand-box-conventions.yml
+  - type: ErrorCatalog
+    url: errors/the-sand-box-problem-types.yml
+  - type: RateLimits
+    url: rate-limits/the-sand-box-rate-limits.yml
+  - type: DataModel
+    url: data-model/the-sand-box-data-model.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-sand-box-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/the-sand-box-stock
+  url: https://www.sandbox.game/
+- type: DeveloperPortal
+  url: https://developers.sandbox.game/
+- type: Documentation
+  url: https://docs.sandbox.game/en
+- type: APIReference
+  url: https://developers.sandbox.game/api/
+- type: GettingStarted
+  url: https://developers.sandbox.game/getting-started.html
+- type: Support
+  url: https://docs.sandbox.game/en/general/helpcontact
+- type: Blog
+  url: https://www.sandbox.game/blog/
+- type: BlogRSS
+  url: https://medium.com/feed/sandbox-game
+- type: GitHubOrganization
+  url: https://github.com/thesandboxgame
+- type: TermsOfService
+  url: https://www.sandbox.game/en/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.sandbox.game/en/privacypolicy/
+- type: LLMsTxt
+  url: llms/the-sand-box-llms.txt
+- type: Packages
+  url: packages/the-sand-box-packages.yml
+- type: SDKs
+  url: packages/the-sand-box-packages.yml
+- type: Authentication
+  url: authentication/the-sand-box-authentication.yml
+- type: Conventions
+  url: conventions/the-sand-box-conventions.yml
+- type: ErrorCatalog
+  url: errors/the-sand-box-problem-types.yml
+- type: RateLimits
+  url: rate-limits/the-sand-box-rate-limits.yml
+- type: Plans
+  url: plans/the-sand-box-plans-pricing.yml
+- type: Lifecycle
+  url: lifecycle/the-sand-box-lifecycle.yml
+- type: ChangeLog
+  url: changelog/the-sand-box-changelog.yml
+- type: Conformance
+  url: conformance/the-sand-box-conformance.yml
+- type: DataModel
+  url: data-model/the-sand-box-data-model.yml
+x-enrichment:
+  date: '2026-08-30'
+  status: enriched
+  artifacts_added: 15
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  https://developers.sandbox.game/ + https://developers.sandbox.game/what-is/ +
+  https://developers.sandbox.game/getting-started/ + https://developers.sandbox.game/api/
+plan_count: 0
+currency: null
+summary: >-
+  The Sandbox publishes NO pricing, plans, tiers, quotas or free-tier terms for the Developers API.
+  Access is gated on a request-and-approve workflow ("Request Access to the Developer API. Wait for
+  our team to review and approve your request. Once approved, you'll receive your API credentials"),
+  and nothing on the Developers HUB attaches a price, a quota or a billing period to it. The only
+  quantitative commitment published anywhere is the 3 requests/second rate limit, which is a limit
+  rather than a plan, and the reference notes that "Special rate limits may be introduced for select
+  partners" - which implies commercial differentiation exists without publishing what it costs.
+plans: []
+access_model:
+  type: request-and-approve
+  self_serve: false
+  price_published: false
+  contact: support@sandbox.game
+  request_url: https://developers.sandbox.game/getting-started/
+note: >-
+  This is an honest zero, not an unchecked field. The Developers HUB has four top-level sections
+  (home, What is the Developers HUB, Getting Started, REST API + Unity SDK) and none of them carries
+  a pricing page, a plans table, or a link to one; the site has no /pricing route and its own
+  navigation offers none. Commercial terms for the consumer-facing platform (SAND, LAND, marketplace
+  fees) are a separate matter and are not API plans.
+checked: '2026-08-30'

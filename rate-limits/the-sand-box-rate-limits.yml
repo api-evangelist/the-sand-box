@@ -1,0 +1,52 @@
+generated: '2026-08-30'
+method: searched
+source: https://developers.sandbox.game/api/
+summary: >-
+  One published limit and no runtime signal. The Sandbox documents an average of 3 requests per
+  second per integration with short bursts allowed, and a 429 carrying a `rate_limited` error code.
+  It documents no rate-limit response headers at all, so a client cannot read its remaining budget
+  or a retry delay off the wire.
+limit_count: 1
+scopes:
+- scope: per-integration
+  surface: REST (https://developers.sandbox.game/api/)
+  window: 1 second
+  limit: 3
+  unit: requests
+  measure: average
+  burst: allowed
+  burst_value: null
+  burst_note: >-
+    "Short bursts are allowed" is the provider's exact wording; no burst ceiling or bucket size is
+    published.
+  source: https://developers.sandbox.game/api/
+exhaustion:
+  status_code: 429
+  error_code: rate_limited
+  retry_after_header: false
+  body: >-
+    "Rate-limited requests return a rate_limited error with HTTP status 429." No example body is
+    published.
+response_headers:
+  documented: false
+  observed: false
+  headers: []
+  note: >-
+    No X-RateLimit-*, no RateLimit-* (RFC 9238 draft family) and no Retry-After is documented. The
+    limit could not be observed on a live response either: the API requires an approved OAuth client,
+    and the unauthenticated /api/* paths were returning nginx 503 during the probe. An agent
+    integrating here must hard-code the 3/s figure and implement blind exponential backoff.
+size_limits:
+  documented: false
+  note: >-
+    The reference heads this section "Request Limits ... the API enforces rate and size limits" but
+    then publishes only the rate limit. No request-body or response-size ceiling is stated.
+provider_caveats:
+- 'Rate limits may change in the future.'
+- 'Special rate limits may be introduced for select partners.'
+tiering:
+  published: false
+  note: >-
+    Partner-specific limits are mentioned but no tier, plan or quota table is published. See
+    plans/the-sand-box-plans-pricing.yml.
+checked: '2026-08-30'

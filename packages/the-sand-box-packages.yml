@@ -1,0 +1,173 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  Registry sweeps of npm (registry.npmjs.org package metadata), plus the provider's own Developers
+  HUB (https://developers.sandbox.game/unity/getting-started/) and the thesandboxgame GitHub
+  organization (https://api.github.com/orgs/thesandboxgame/repos).
+summary:
+  first_party_sdk_count: 1
+  first_party_package_count: 9
+  third_party_package_count: 0
+  note: >-
+    Two distinct distribution stories. (1) The Developer SDK for Unity is a REAL first-party client
+    library for the Developers API, but it is NOT published to any package registry - The Sandbox
+    ships it as a Unity Package Manager Git dependency pointed at a redistribution repo, so it has
+    no registry metadata endpoint and no semver tag on GitHub. Its version is read from the
+    provider's own changelog page instead. (2) Eight npm packages under the @sandbox-smart-contracts
+    scope are first-party publications of The Sandbox's on-chain contracts; they are Solidity
+    libraries, not clients for the REST API, and every one of them last published in 2023 or 2024.
+    A JavaScript SDK is announced as planned and does not exist yet.
+packages:
+- language: csharp
+  registry: git
+  name: Sandbox Developer SDK for Unity
+  url: https://developers.sandbox.game/unity/
+  install: >-
+    Unity Editor > Window > Package Manager > + > Add package from Git URL:
+    git@github.com:thesandboxgame/tsb-developers-sdk-unity-redist.git
+  repository: https://github.com/thesandboxgame/tsb-developers-sdk-unity-redist
+  official: true
+  version: 1.1.0
+  published: null
+  version_source: https://developers.sandbox.game/unity/changelog/
+  note: >-
+    version 1.1.0 is the newest heading in the provider's published SDK changelog. `published:` is
+    null because there is no dated release for it anywhere we can read: the redistribution repo has
+    ZERO GitHub releases and ZERO tags (checked 2026-08-30 via the GitHub API), and a UPM Git
+    dependency has no registry metadata endpoint. The repo's last push was 2025-07-03, and the
+    sample path shipped in the docs still reads ".../Sandbox Developer SDK for Unity/1.0.1/...",
+    one minor behind the changelog. A consumer adding this Git URL gets whatever is on `master`
+    at the moment they add it - the distribution is unpinned and undated, so nobody downstream can
+    tell what version they are running either.
+  description: >-
+    Official Unity client for The Sandbox Developers API. Handles OAuth authorization and token
+    refresh, then exposes user, avatar, asset, collection, library, inventory, LAND, SAND balance
+    and social (followers/follows) calls, plus runtime GLTF asset preload and instantiation.
+    Targets Windows, macOS, WebGL, Android and iOS; async surface built on UniTask.
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/asset'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/asset
+  install: npm install @sandbox-smart-contracts/asset
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.1.0
+  published: '2024-01-12'
+  license: MIT
+  description: Asset and Catalyst L2 smart contracts.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/asset
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/land'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/land
+  install: npm install @sandbox-smart-contracts/land
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 0.0.3
+  published: '2024-01-25'
+  description: LAND smart contract.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/land
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/dependency-operator-filter'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/dependency-operator-filter
+  install: npm install @sandbox-smart-contracts/dependency-operator-filter
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.0.2
+  published: '2024-04-22'
+  description: Implementation for OpenSea's operator filter.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/dependency-operator-filter
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/marketplace'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/marketplace
+  install: npm install @sandbox-smart-contracts/marketplace
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.0.1
+  published: '2023-11-30'
+  license: ISC
+  description: Contracts that let users buy or sell assets (NFTs) on The Sandbox marketplace.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/marketplace
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/dependency-royalty-management'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/dependency-royalty-management
+  install: npm install @sandbox-smart-contracts/dependency-royalty-management
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.0.2
+  published: '2023-10-20'
+  description: The Sandbox royalty implementation.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/dependency-royalty-management
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/dependency-metatx'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/dependency-metatx
+  install: npm install @sandbox-smart-contracts/dependency-metatx
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.0.1
+  published: '2023-10-20'
+  license: MIT
+  description: ERC-2771 handler used to implement meta-transactions.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/dependency-metatx
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/giveaway'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/giveaway
+  install: npm install @sandbox-smart-contracts/giveaway
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 1.0.0
+  published: '2023-09-14'
+  license: MIT
+  description: Contracts used for token claims.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/giveaway
+- language: solidity
+  registry: npm
+  name: '@sandbox-smart-contracts/core'
+  url: https://www.npmjs.com/package/@sandbox-smart-contracts/core
+  install: npm install @sandbox-smart-contracts/core
+  repository: https://github.com/thesandboxgame/sandbox-smart-contracts
+  official: true
+  version: 0.0.1
+  published: '2023-07-14'
+  license: MIT
+  description: Core smart contracts for The Sandbox.
+  source: https://registry.npmjs.org/@sandbox-smart-contracts/core
+announced_not_shipped:
+- name: JavaScript SDK
+  status: planned
+  source: https://developers.sandbox.game/what-is/
+  note: >-
+    The Developers HUB tool table lists "JavaScript SDK - Lightweight helper tools to integrate
+    Sandbox features into web apps" with status "Planned", and the Getting Started page repeats
+    "JavaScript SDK - (coming soon)". No such package exists on npm as of 2026-08-30.
+registries_checked:
+- registry: npm
+  result: 8 first-party packages found under the @sandbox-smart-contracts scope; no REST client library
+- registry: pypi
+  result: none
+- registry: rubygems
+  result: none
+- registry: crates.io
+  result: none
+- registry: nuget
+  result: none
+- registry: maven-central
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: openupm
+  result: not published; the Unity SDK is a Git-URL UPM dependency
+decay_signal:
+  note: >-
+    Every first-party npm package predates 2025. The newest is
+    @sandbox-smart-contracts/dependency-operator-filter at 2024-04-22, and the newest package that
+    is not a dependency shim is @sandbox-smart-contracts/land at 2024-01-25. The contracts monorepo
+    itself is still active (last push 2026-08-25), so the packages have fallen behind the source,
+    not the other way round: nine of the seventeen package directories in that repo
+    (avatar, batch-transfers, faucets, game-passes, land-sale, oft-sand, sandbox-forwarder, deploy,
+    example-hardhat) have never been published to npm at all.

@@ -1,0 +1,222 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  https://developers.sandbox.game/api/ + https://developers.sandbox.game/unity/changelog/ +
+  https://status.sandbox.game/ + https://docs.sandbox.game/en/about/terms-of-use-privacy-and-legal +
+  live probes of developers.sandbox.game and api.sandbox.game on 2026-08-30
+summary: >-
+  A young developer program with a maintained SDK changelog, no API versioning policy, no deprecation
+  policy, no SLA, and a status page that has been DELETED. During this pass the API half of the
+  Developers HUB - the authentication reference, the integration examples and the Swagger playground -
+  was returning HTTP 503 from nginx, which is itself the most important operational fact in this file.
+versioning:
+  scheme: unversioned-path
+  notes: >-
+    The documented base URL is https://developers.sandbox.game/api/ with no version segment and no
+    version header. No API version identifier is published.
+  policy_documented: false
+deprecation:
+  policy_documented: false
+  sunset_header: false
+  deprecated_operations: []
+  notes: >-
+    No deprecation or sunset policy (RFC 8594) is published, and no operation can be checked for
+    `deprecated: true` because no OpenAPI could be read. NO `Deprecation` pointer is emitted.
+status_page:
+  url: https://status.sandbox.game/
+  exists: false
+  provider: Atlassian Statuspage
+  probed:
+  - url: https://status.sandbox.game/
+    status: 200
+    body_title: 'Statuspage - Statuspage deleted'
+    body: >-
+      "This Statuspage was deleted. Are you the owner? The Statuspage can still be recovered, but it
+      will be permanently deleted soon."
+    checked: '2026-08-30'
+  - url: https://status.sandbox.game/api/v2/summary.json
+    status: 200
+    result: not-json (returns the same deleted-page HTML)
+    checked: '2026-08-30'
+  notes: >-
+    The hostname still resolves and still answers 200, which is exactly the failure mode the pointer
+    grading exists to catch: a naive check sees 200 and credits a status page. There is no status
+    page. NO `StatusPage` pointer is emitted.
+availability_observed:
+  window: '2026-08-30'
+  finding: >-
+    Every path under https://developers.sandbox.game/api/ except the API Reference index itself
+    returned an nginx "503 Service Temporarily Unavailable" HTML page. That includes the two pages a
+    developer needs most - Handling Authentication and Integration Examples - and the Swagger
+    playground, which is the provider's only machine-readable contract surface.
+  probed:
+  - url: https://developers.sandbox.game/api/
+    status: 200
+  - url: https://developers.sandbox.game/api/index.html
+    status: 503
+  - url: https://developers.sandbox.game/api/authentication.html
+    status: 503
+  - url: https://developers.sandbox.game/api/examples.html
+    status: 503
+  - url: https://developers.sandbox.game/api/api-playground.html
+    status: 503
+  - url: https://developers.sandbox.game/api/docs/
+    status: 503
+  - url: https://developers.sandbox.game/getting-started.html
+    status: 200
+  - url: https://developers.sandbox.game/what-is.html
+    status: 200
+  - url: https://developers.sandbox.game/unity/
+    status: 200
+  - url: https://api.sandbox.game/health
+    status: 200
+    body: '{"required":"ready","optional":"ready"}'
+  note: >-
+    The static half of the site (home, what-is, getting-started, the whole Unity SDK section) is
+    healthy, and the separate platform host api.sandbox.game reports itself ready. The outage is
+    scoped to the /api/* route on the Developers HUB. It is recorded here as observed on one date,
+    not asserted as permanent.
+changelog:
+  url: https://developers.sandbox.game/unity/changelog/
+  artifact: changelog/the-sand-box-changelog.yml
+  scope: Unity SDK only
+  notes: >-
+    The only dated-ish change record The Sandbox publishes for its developer surface is the Unity SDK
+    changelog, and it carries versions without dates. There is no REST API changelog.
+sla:
+  documented: false
+support:
+  channels:
+  - type: email
+    value: support@sandbox.game
+    source: https://developers.sandbox.game/what-is/
+  - type: help-center
+    url: https://docs.sandbox.game/en/general/helpcontact
+  - type: support-portal
+    url: https://tsb-externals.atlassian.net/servicedesk/customer/portal/12
+    note: Atlassian Jira Service Management portal; used for account/data deletion and ban appeals.
+  - type: security-and-fraud-email
+    value: report@sandbox.game
+    source: https://docs.sandbox.game/en/general/helpcontact
+  - type: privacy-email
+    value: privacy@sandbox.game
+    source: https://docs.sandbox.game/en/general/helpcontact
+  - type: forum
+    url: https://forum.sandbox.game/
+    status: unreachable
+    probed_status: '<no response>'
+    note: >-
+      Linked from the provider's own Help & Contact page as "The Sandbox Forum". The host did not
+      answer on 2026-08-30 (connection failed before any HTTP status). Recorded, not pointed at.
+terms:
+  url: https://www.sandbox.game/en/terms-of-use/
+  additional:
+  - https://www.sandbox.game/en/staking-terms-of-use/
+  source: https://docs.sandbox.game/en/general/helpcontact
+privacy:
+  url: https://www.sandbox.game/en/privacypolicy/
+  gdpr: true
+  gdpr_source: https://docs.sandbox.game/en/about/terms-of-use-privacy-and-legal
+roadmap:
+  published: false
+  note: >-
+    No roadmap page. The nearest published forward-looking statement is the Developers HUB tool
+    table, which marks a JavaScript SDK "Planned". NO `Roadmap` pointer is emitted.
+pointer_verification:
+  checked: '2026-08-30'
+  method: probed
+  note: >-
+    Every external pointer wired into apis.yml was fetched with a browser User-Agent. The four that
+    return 403 all live on www.sandbox.game, which answers a Cloudflare "Just a moment..."
+    interstitial to any non-browser client on EVERY path including the site root - so 403 there says
+    nothing about whether the page exists. Each of those four is asserted by The Sandbox's own
+    documentation, which is why they are kept rather than removed: the website, terms of use and
+    privacy policy URLs are listed on
+    https://docs.sandbox.game/en/general/helpcontact and
+    https://docs.sandbox.game/en/about/terms-of-use-privacy-and-legal, and the blog URL is listed
+    under "Official Blogs" on
+    https://docs.sandbox.game/en/accounts/security-topics/officialtsblinks.md.
+  results:
+  - type: Website
+    url: https://www.sandbox.game/
+    status: 403
+    verdict: live-behind-bot-challenge
+  - type: DeveloperPortal
+    url: https://developers.sandbox.game/
+    status: 200
+    verdict: live
+  - type: Documentation
+    url: https://docs.sandbox.game/en
+    status: 200
+    verdict: live
+  - type: APIReference
+    url: https://developers.sandbox.game/api/
+    status: 200
+    verdict: live
+  - type: GettingStarted
+    url: https://developers.sandbox.game/getting-started.html
+    status: 200
+    verdict: live
+  - type: Support
+    url: https://docs.sandbox.game/en/general/helpcontact
+    status: 200
+    verdict: live
+  - type: Blog
+    url: https://www.sandbox.game/blog/
+    status: 403
+    verdict: live-behind-bot-challenge
+  - type: BlogRSS
+    url: https://medium.com/feed/sandbox-game
+    status: 200
+    verdict: live
+  - type: GitHubOrganization
+    url: https://github.com/thesandboxgame
+    status: 200
+    verdict: live
+  - type: TermsOfService
+    url: https://www.sandbox.game/en/terms-of-use/
+    status: 403
+    verdict: live-behind-bot-challenge
+  - type: PrivacyPolicy
+    url: https://www.sandbox.game/en/privacypolicy/
+    status: 403
+    verdict: live-behind-bot-challenge
+  removed:
+  - type: Website
+    url: https://www.hiive.com/securities/the-sand-box-stock
+    reason: >-
+      The stub profile carried a Hiive secondary-market listing as the company Website. That is a
+      trading venue's page ABOUT the company, not a page the company serves. Replaced with
+      https://www.sandbox.game/.
+  not_emitted:
+  - type: StatusPage
+    reason: https://status.sandbox.game/ answers 200 with "This Statuspage was deleted".
+  - type: Deprecation
+    reason: No deprecation or sunset policy published.
+  - type: Security
+    reason: >-
+      No security.txt anywhere; the Immunefi bounty the provider links from its own official-links
+      page 404s on all four URL forms. See security/the-sand-box-vulnerability-disclosure.yml.
+  - type: Compliance
+    reason: No trust center and no named audited certification.
+  - type: MCPServer
+    reason: No MCP server exists. mcp/the-sand-box-mcp.yml is a derived candidate only.
+  - type: AgentCard
+    reason: /.well-known/agent-card.json and /.well-known/agent.json miss on every host.
+  - type: WellKnown
+    reason: Every /.well-known/ path 404s or is bot-challenged on every host.
+  - type: Pricing
+    reason: No pricing or plans page exists for the Developers API. See plans/ (plan_count 0).
+  - type: SignUp
+    reason: >-
+      Access is request-and-approve; the "Request API Access" control on the Developers HUB home is
+      a client-side button with no reachable target URL, so no sign-up URL could be verified.
+  - type: Roadmap
+    reason: No roadmap page.
+  - type: Postman
+    reason: Postman public search returns zero workspaces, collections or APIs for sandbox.game.
+  - type: OpenAPI
+    reason: >-
+      The provider states a Swagger playground is available, but every route under
+      https://developers.sandbox.game/api/ returned nginx 503 on 2026-08-30 and no spec could be
+      fetched, parsed or ownership-checked. Nothing is saved to openapi/ rather than guessing.

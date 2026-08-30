@@ -1,0 +1,149 @@
+generated: '2026-08-30'
+method: derived
+source: >-
+  Derived from the provider's published Sandbox Developers SDK reference
+  (https://developers.sandbox.game/unity/reference/) and usage examples
+  (https://developers.sandbox.game/unity/examples/), cross-checked against the API Reference JSON
+  conventions (https://developers.sandbox.game/api/).
+derivation_note: >-
+  NOT derived from an OpenAPI - none could be read (the Swagger playground was 503, see
+  conformance/). Every entity and every relationship below is named by a real, published SDK method
+  or response type. Field-level schemas are NOT reproduced here because the provider publishes none:
+  the SDK reference gives return TYPES (UserResponse, AvatarData, AssetsResponse, CollectionsResponse,
+  LibrariesResponse, LandsResponse, SandResponse, SocialUser) without their members. Confidence is
+  recorded per relationship.
+conventions:
+  identifier: UUIDv4 on top-level resources
+  property_naming: snake_case
+  datetime: ISO 8601
+  source: https://developers.sandbox.game/api/
+entities:
+- name: User
+  description: A Sandbox account holder; the subject of the OAuth authorization.
+  response_type: UserResponse
+  identifier: userId
+  operations:
+  - GetLoggedUserId()
+  - GetUser(userId)
+  known_fields:
+  - name
+  known_fields_note: The published example reads `user.name`; no other member is documented.
+- name: Avatar
+  description: A user's avatar. Users select, purchase or create avatars; owned avatars are inventory.
+  response_type: AvatarData
+  operations:
+  - GetUserAvatar(userId)
+  - GetInventoryAvatars()
+- name: Asset
+  description: >-
+    A voxel ASSET (an NFT). Assets are fetchable as public, by collection, by library or from a
+    user's inventory, downloadable as GLTF, and instantiable at runtime.
+  response_type: AssetsResponse (collection) / GLTFData (binary) / SandboxAsset (runtime object)
+  identifier: assetId
+  operations:
+  - GetPublicAssets(limit, searchAfter, search, query)
+  - GetCollectionAssets(...)
+  - GetLibraryAssets(...)
+  - GetInventoryAssets(...)
+  - GetAssetById(assetId)
+  - PreloadAssets(assetIds)
+  - InstantiateAsset(assetId)
+  known_fields:
+  - name
+  - AnimationClips
+  known_fields_note: >-
+    `asset.name` is read in the published example; `asset.AnimationClips[0].name` is read in the
+    animation example. AnimationClips may be a client-side construct of the SDK rather than an API
+    field.
+- name: Collection
+  description: A grouping of assets.
+  response_type: CollectionsResponse
+  operations:
+  - GetCollections(...)
+  - GetCollectionAssets(...)
+- name: Library
+  description: A second grouping of assets, distinct from a collection.
+  response_type: LibrariesResponse
+  operations:
+  - GetLibraries(...)
+  - GetLibraryAssets(...)
+- name: Land
+  description: A LAND parcel owned by a user.
+  response_type: LandsResponse
+  operations:
+  - GetInventoryLands(...)
+- name: SandBalance
+  description: The user's SAND token balance.
+  response_type: SandResponse
+  operations:
+  - GetSand(...)
+- name: SocialUser
+  description: A user in a social relation (follower or followee).
+  response_type: 'List<SocialUser>'
+  operations:
+  - GetFollowers(userId)
+  - GetFollows(userId)
+relationships:
+- from: User
+  to: Avatar
+  type: has_one
+  via: GetUserAvatar(userId)
+  confidence: high
+  note: >-
+    The active avatar. A user separately has_many avatars in inventory - see the next row.
+- from: User
+  to: Avatar
+  type: has_many
+  via: GetInventoryAvatars()
+  confidence: high
+- from: User
+  to: Asset
+  type: has_many
+  via: GetInventoryAssets()
+  confidence: high
+- from: User
+  to: Land
+  type: has_many
+  via: GetInventoryLands()
+  confidence: high
+- from: User
+  to: SandBalance
+  type: has_one
+  via: GetSand()
+  confidence: high
+- from: User
+  to: SocialUser
+  type: has_many
+  via: GetFollowers(userId) / GetFollows(userId)
+  confidence: high
+  note: Two directed edges over the same follow graph.
+- from: Collection
+  to: Asset
+  type: has_many
+  via: GetCollectionAssets()
+  confidence: high
+- from: Library
+  to: Asset
+  type: has_many
+  via: GetLibraryAssets()
+  confidence: high
+- from: Collection
+  to: Library
+  type: unknown
+  via: null
+  confidence: low
+  note: >-
+    Both group assets and both are listed independently; whether one contains the other, or they are
+    orthogonal, is not published.
+id_prefixes:
+  published: false
+  note: The reference states UUIDv4 ids and shows no prefixed or typed-id scheme.
+gaps:
+- Field-level schemas for every entity are unpublished.
+- >-
+  The write surface is invisible. The API documents POST, PATCH and DELETE but the SDK exposes only
+  reads, so which entities are writable, and by what operation, cannot be derived.
+- >-
+  On-chain identity (LAND token id, ASSET token id, wallet address) is not reconciled with the
+  API's UUIDv4 ids anywhere in the published documentation, so an integrator cannot join API
+  resources to their Ethereum/Polygon counterparts from the docs alone.

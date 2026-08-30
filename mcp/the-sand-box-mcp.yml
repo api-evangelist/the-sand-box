@@ -1,0 +1,98 @@
+generated: '2026-08-30'
+method: derived
+status: candidate
+source: >-
+  Searched for a first-party MCP server (the Developers HUB tool table, the GitHub organization
+  thesandboxgame, npm, and the docs llms.txt) - none exists. The candidate tools below are DERIVED
+  from the provider's published Sandbox Developers SDK reference
+  (https://developers.sandbox.game/unity/reference/), which is the only enumerated operation list
+  The Sandbox publishes.
+summary: >-
+  The Sandbox ships no MCP server of any kind. This file is a candidate shape only, so NO `MCPServer`
+  pointer is wired into apis.yml - emitting one would credit the provider with an agent surface it
+  does not operate. The candidate tools are real published operations, not invented ones.
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: searched
+  note: >-
+    Nobody ships a server: no hosted endpoint, no npx/uvx package, no third-party wrapper found. The
+    `auth` value is `unknown` rather than `oauth` because there is no server whose auth to state -
+    the underlying REST API is OAuth-protected (see authentication/).
+search_record:
+- surface: https://developers.sandbox.game/what-is/
+  finding: >-
+    The "Available Tools" table lists REST API, Unity SDK, Swagger Playground (all Available) and
+    JavaScript SDK (Planned). MCP is not mentioned.
+- surface: https://github.com/thesandboxgame
+  finding: 17 public repositories, none an MCP server. Checked 2026-08-30 via the GitHub API.
+- surface: npm registry
+  finding: No MCP package under any sandbox.game-related name or the @sandbox-smart-contracts scope.
+- surface: https://docs.sandbox.game/en/llms.txt
+  finding: >-
+    A real llms.txt is served (captured in llms/) but it is a documentation index for players and
+    creators plus GitBook agent instructions. It advertises no MCP endpoint and no tool list.
+- surface: https://api.sandbox.game/ and https://developers.sandbox.game/
+  finding: No /mcp or /sse route; no oauth-protected-resource metadata on any host.
+candidate_tools:
+  basis: >-
+    One tool per published SDK method. inputSchema is NOT included because the provider publishes
+    parameter names but no types or schemas, and fabricating them is out of bounds.
+  tools:
+  - name: get_user
+    category: identity
+    description: Fetch a Sandbox user's details by id.
+    parameters: [userId]
+  - name: get_user_avatar
+    category: identity
+    description: Fetch the avatar data for a user.
+    parameters: [userId]
+  - name: list_public_assets
+    category: assets
+    description: List public voxel assets with search and cursor pagination.
+    parameters: [limit, searchAfter, search, query]
+  - name: list_collection_assets
+    category: assets
+    description: List the assets belonging to a collection.
+  - name: list_library_assets
+    category: assets
+    description: List the assets belonging to a library.
+  - name: list_inventory_assets
+    category: assets
+    description: List the assets owned by the authenticated user.
+  - name: get_asset
+    category: assets
+    description: Download a specific asset by id (GLTF).
+    parameters: [assetId]
+  - name: list_collections
+    category: catalog
+    description: List available collections.
+  - name: list_libraries
+    category: catalog
+    description: List available libraries.
+  - name: list_inventory_avatars
+    category: inventory
+    description: List the avatars owned by the authenticated user.
+  - name: list_inventory_lands
+    category: inventory
+    description: List the LAND parcels owned by the authenticated user.
+  - name: get_sand_balance
+    category: inventory
+    description: Get the authenticated user's SAND token balance.
+  - name: list_followers
+    category: social
+    description: List a user's followers.
+    parameters: [userId]
+  - name: list_follows
+    category: social
+    description: List the users a user follows.
+    parameters: [userId]
+crosswalk:
+  emitted: false
+  reason: >-
+    No tool crosswalk is emitted. A crosswalk binds MCP tools to OpenAPI operationIds; there is no
+    MCP server AND no readable OpenAPI here, so both sides of the mapping are missing. Re-run this
+    step if the Swagger playground at https://developers.sandbox.game/api/docs/ comes back up.

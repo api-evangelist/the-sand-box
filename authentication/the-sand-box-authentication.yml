@@ -1,0 +1,89 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  https://developers.sandbox.game/api/ (API Reference: Additional Security Considerations, Status
+  Codes) + https://developers.sandbox.game/what-is/ + https://developers.sandbox.game/getting-started/
+  + https://developers.sandbox.game/unity/reference/ + https://developers.sandbox.game/unity/examples/
+  + https://developers.sandbox.game/unity/faq/
+summary: >-
+  The Sandbox Developers API is protected by an OAuth-based identity system. A developer is issued a
+  client id and client secret out of band (by request and approval), runs a browser authorization
+  flow against the user's Sandbox account, exchanges the resulting code for a token, and calls the
+  REST API with a bearer token. The API returns 401 `unauthenticated` for an invalid or missing
+  bearer token and 403 `unauthorized` for insufficient permissions, which confirms both a bearer
+  scheme and a permission/scope model on the wire.
+derived_from_spec: false
+spec_note: >-
+  DERIVED FROM DOCS ONLY. No OpenAPI document could be read for this provider - see
+  conformance/the-sand-box-conformance.yml and lifecycle/the-sand-box-lifecycle.yml for the probe
+  record. The Handling Authentication page (https://developers.sandbox.game/api/authentication.html)
+  and the Swagger playground (https://developers.sandbox.game/api/docs/) both returned HTTP 503 from
+  nginx on 2026-08-30, so the authoritative auth reference could not be captured. Everything below
+  comes from pages that DID load; nothing here is inferred beyond what those pages state.
+schemes:
+- id: oauth2
+  type: oauth2
+  documented: true
+  flow: authorization_code
+  flow_evidence: >-
+    The Unity SDK reference documents RequestAuthorization() ("starts the browser authentication
+    flow") followed by RequestToken(string code) ("Requests a token using the provided code") - an
+    authorization-code exchange. The published OAuthSettings object carries clientId, clientSecret
+    and redirectUri, and the shipped Avatar Demo uses a custom-scheme redirect ("avatardemo://auth").
+  credentials:
+    client_id: issued by The Sandbox on approval of a developer access request
+    client_secret: issued by The Sandbox on approval of a developer access request
+    redirect_uri: registered per application; deep-link schemes are supported for desktop builds
+  scopes:
+    documented: false
+    note: >-
+      Scopes exist in the model - the SDK FAQ says OAuthSettings takes "client ID, scopes, etc." and
+      the API Reference tells integrators to "Scope tokens properly to limit access" - but NO scope
+      reference page is published anywhere we can reach, and the page that would carry it
+      (/api/authentication.html) is 503. No scopes/ artifact is emitted rather than inventing values.
+  refresh_tokens:
+    supported: true
+    note: >-
+      The API Reference security guidance says "Handle expiration and use refresh tokens"; the Unity
+      SDK FAQ states the SDK "manages token refreshing internally".
+  token_endpoint: null
+  authorization_endpoint: null
+  endpoint_note: >-
+    The concrete authorize/token URLs are not stated on any page that loaded. They live behind the
+    503 authentication page. Not guessed.
+- id: bearer
+  type: http
+  scheme: bearer
+  documented: true
+  in: header
+  evidence: >-
+    API Reference status-code table, 401 `unauthenticated` - "Invalid or missing bearer token".
+  note: >-
+    The bearer token is the OAuth access token from the flow above; it is not a separately issued
+    static API key.
+authorization:
+  model: permission-scoped bearer token
+  failure_codes:
+  - status: 401
+    code: unauthenticated
+    meaning: Invalid or missing bearer token
+  - status: 403
+    code: unauthorized
+    meaning: Insufficient permissions
+access_model:
+  onboarding: request-and-approve
+  steps:
+  - Request access to the Developer API from the Developers HUB.
+  - Wait for The Sandbox team to review and approve the request.
+  - Receive API credentials (OAuth client id and client secret) from The Sandbox.
+  source: https://developers.sandbox.game/getting-started/
+  note: >-
+    There is no self-serve key issuance. A developer account, a Sandbox user account and a GitHub
+    account are the stated prerequisites (the GitHub account is needed to pull the Unity SDK from
+    its Git URL).
+transport_requirements:
+- HTTPS is required for all requests.
+- Store access tokens securely.
+- Handle expiration and use refresh tokens.
+- Scope tokens properly to limit access.
+source_of_requirements: https://developers.sandbox.game/api/
