@@ -45,6 +45,13 @@ apis:
   - Identity
   - Avatars
   - Assets
+  - Collection
+  - Land
+  - Metaverse
+  tags_raw:
+  - Identity
+  - Avatars
+  - Assets
   - Collections
   - Land
   - Metaverse
