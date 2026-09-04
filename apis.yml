@@ -10,6 +10,20 @@ description: >-
   OAuth-based identity system, a Swagger playground, and a Developer SDK for Unity distributed as a
   Unity Package Manager Git dependency. It also publishes its smart-contract source and a set of
   first-party npm packages under the @sandbox-smart-contracts scope.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  - rate-limits
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://avatars.githubusercontent.com/u/63786662?v=4
 url: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/apis.yml
 x-type: company
