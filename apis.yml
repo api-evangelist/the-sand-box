@@ -1,15 +1,14 @@
 aid: the-sand-box
 name: The Sandbox
-description: >-
-  The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB Gaming
-  Ltd (a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel
-  games and assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155
-  ASSETs. Its creator toolchain is VoxEdit (NFT and avatar designer) and Game Maker (experience
-  designer), with a marketplace for trading assets. For developers The Sandbox runs a Developers HUB
-  publishing a REST API for identity, avatars, assets, collections, libraries and LAND ownership, an
-  OAuth-based identity system, a Swagger playground, and a Developer SDK for Unity distributed as a
-  Unity Package Manager Git dependency. It also publishes its smart-contract source and a set of
-  first-party npm packages under the @sandbox-smart-contracts scope.
+description: The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB
+  Gaming Ltd (a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel
+  games and assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155 ASSETs.
+  Its creator toolchain is VoxEdit (NFT and avatar designer) and Game Maker (experience designer), with
+  a marketplace for trading assets. For developers The Sandbox runs a Developers HUB publishing a REST
+  API for identity, avatars, assets, collections, libraries and LAND ownership, an OAuth-based identity
+  system, a Swagger playground, and a Developer SDK for Unity distributed as a Unity Package Manager Git
+  dependency. It also publishes its smart-contract source and a set of first-party npm packages under
+  the @sandbox-smart-contracts scope.
 accessModel:
   pricing: unknown
   onboarding: self-serve
@@ -43,16 +42,15 @@ tags:
 - Ethereum
 - Identity
 apis:
-- aid: the-sand-box-developers-api
+- aid: the-sand-box:the-sand-box-developers-api
   name: The Sandbox Developers API
-  description: >-
-    The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core
-    ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets,
+  description: The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes
+    core ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets,
     collections, libraries, inventory, LAND ownership and SAND balances - so games, tools, dashboards
-    and analytics platforms can integrate with The Sandbox metaverse. Requests are JSON over HTTPS
-    using GET, POST, PATCH and DELETE, top-level resources carry a UUIDv4 id, property names are
-    snake_case and timestamps are ISO 8601. Access is granted by request and approval; credentials
-    are issued by The Sandbox as an OAuth client id and client secret.
+    and analytics platforms can integrate with The Sandbox metaverse. Requests are JSON over HTTPS using
+    GET, POST, PATCH and DELETE, top-level resources carry a UUIDv4 id, property names are snake_case
+    and timestamps are ISO 8601. Access is granted by request and approval; credentials are issued by
+    The Sandbox as an OAuth client id and client secret.
   humanURL: https://developers.sandbox.game/api/
   baseURL: https://developers.sandbox.game/api/
   tags:
