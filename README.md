@@ -1,4 +1,4 @@
-# The Sand Box
+# The Sandbox
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,32 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB Gaming Ltd
-(a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel games and
-assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155 ASSETs.
+The Sandbox is a user-generated-content metaverse and voxel gaming platform operated by TSB Gaming Ltd (a subsidiary of Animoca Brands), where players and creators build, own and monetise voxel games and assets on Ethereum and Polygon using the SAND token, LAND parcels and ERC-721/ERC-1155 ASSETs. Its creator toolchain is VoxEdit (NFT and avatar designer) and Game Maker (experience designer), with a marketplace for trading assets. For developers The Sandbox runs a Developers HUB publishing a REST API for identity, avatars, assets, collections, libraries and LAND ownership, an OAuth-based identity system, a Swagger playground, and a Developer SDK for Unity distributed as a Unity Package Manager Git dependency. It also publishes its smart-contract source and a set of first-party npm packages under the @sandbox-smart-contracts scope.
 
-For developers, The Sandbox runs a Developers HUB at
-[developers.sandbox.game](https://developers.sandbox.game/) publishing a REST API for identity,
-avatars, assets, collections, libraries and LAND ownership, an OAuth-based identity system, a Swagger
-playground, and a Developer SDK for Unity distributed as a Unity Package Manager Git dependency.
-Access is request-and-approve: credentials are issued by The Sandbox after a review.
+**Areas:** Company · Metaverse · Gaming · Blockchain · NFT · Web3 · Virtual Worlds · User Generated Content · Ethereum · Identity
 
-## What this profile found (2026-08-30)
+## The Sandbox on APIs.io
 
-- **REST API documented, contract not readable.** The API Reference at
-  `https://developers.sandbox.game/api/` loads and publishes the base URL, JSON conventions, rate
-  limit and error codes. Every *other* route under `/api/` — Handling Authentication, Integration
-  Examples, and the Swagger playground at `/api/docs/` — returned nginx **HTTP 503** on 2026-08-30,
-  so no OpenAPI could be fetched. Nothing was saved to `openapi/`; see
-  `conformance/the-sand-box-conformance.yml` for the full probe record.
-- **A real `llms.txt`.** `https://docs.sandbox.game/llms.txt` serves a 65 KB GitBook documentation
-  index, saved verbatim to `llms/`.
-- **Nine first-party packages, none of them a REST client.** Eight npm packages under
-  `@sandbox-smart-contracts` (all last published 2023–2024) plus the Unity SDK, which ships as an
-  unpinned Git URL with no releases and no tags.
-- **A deleted status page and a dead bug bounty.** `status.sandbox.game` answers 200 with
-  "This Statuspage was deleted"; the Immunefi program linked from The Sandbox's own official-links
-  page 404s on all four URL forms.
+Everything profiled for The Sandbox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/the-sand-box/](https://apis.io/providers/the-sand-box/)** — or go straight to one of the APIs or properties below.
 
-Secondary-market listing this company was harvested from:
-- https://www.hiive.com/securities/the-sand-box-stock
+### APIs (1)
+
+- [The Sandbox Developers API](https://apis.io/apis/the-sand-box/the-sand-box-developers-api/) — The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core ecosystem data behind an OAuth-based identity system - Sandbox…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [the-sand-box-mcp.yml](https://apis.io/servers/the-sand-box/the-sand-box-mcp-yml/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [The Sand Box Authentication](https://apis.io/security/the-sand-box/the-sand-box-authentication/)
+- [The Sand Box Domain Security](https://apis.io/security/the-sand-box/the-sand-box-domain-security/)
+- [The Sand Box Vulnerability Disclosure](https://apis.io/security/the-sand-box/the-sand-box-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [The Sand Box Plans Pricing](https://apis.io/plans/the-sand-box/the-sand-box-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [The Sand Box Rate Limits](https://apis.io/rate-limits/the-sand-box/the-sand-box-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sandbox.game/)
+- [Documentation](https://docs.sandbox.game/en)
+- [Getting started](https://developers.sandbox.game/getting-started.html)
+- [API reference](https://developers.sandbox.game/api/)
+- [Support](https://docs.sandbox.game/en/general/helpcontact)
+- [Blog](https://www.sandbox.game/blog/)
+- [Terms of service](https://www.sandbox.game/en/terms-of-use/)
+- [Privacy policy](https://www.sandbox.game/en/privacypolicy/)
+- [GitHub](https://github.com/thesandboxgame)
+
+## API Evangelist rating
+
+**Kin Score 28.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 7.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/the-sand-box/](https://apis.io/providers/the-sand-box/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The Sandbox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/the-sand-box/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
